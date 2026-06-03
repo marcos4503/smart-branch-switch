@@ -1,6 +1,6 @@
-name: "🙋 Support & Help Request"
-description: "Need help, have questions, or facing difficulties with the project?"
-title: "[Support]: "
+name: "🛟 Support or Help Request"
+description: "Need help, have questions, or facing difficulties with the project or software?"
+title: "[Support] - "
 labels: ["help wanted", "question"]
 body:
   - type: markdown
