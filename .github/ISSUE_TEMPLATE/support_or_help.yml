@@ -1,0 +1,40 @@
+name: "🙋 Support & Help Request"
+description: "Need help, have questions, or facing difficulties with the project?"
+title: "[Support]: "
+labels: ["help wanted", "question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🙋 Welcome to Support!
+        Before opening a support request, please check the existing documentation, closed issues, or FAQs to see if your question has already been answered. 
+        
+        Provide as much detail as possible so we can assist you efficiently.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "What do you need help with? / What is your question?"
+      description: "Please describe your question or the problem you are facing in detail."
+      placeholder: "I am trying to configure the tool on my system, but I am unsure about..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Context / Environment"
+      description: "Are there any specific logs, versions, OS details, or error messages that might help us understand the situation?"
+      placeholder: "Windows 11, using Smart Branch Switch v1.0.0. Terminal log output: ..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Before submitting"
+      options:
+        - label: "I have checked the documentation and existing issues, and my question is not answered there."
+          required: true
+        - label: "I understand that this is a public repository and any data shared here will be visible to everyone."
+          required: true
