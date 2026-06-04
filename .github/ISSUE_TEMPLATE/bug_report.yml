@@ -1,5 +1,5 @@
 name: "🐞 Bug Report"
-description: "Report a reproducible error, glitch, or unexpected behavior in the software/project."
+description: "Report a reproducible bug, error, glitch, or unexpected behavior in the software/project."
 title: "[Bug] - "
 labels: ["bug"]
 body:
