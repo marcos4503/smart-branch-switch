@@ -13,7 +13,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: "Description of the Request"
+      label: "Support Details"
       description: "What do you need help with? Describe the problem or what you need help/support with."
       placeholder: "I'm having a problem with..."
     validations:
