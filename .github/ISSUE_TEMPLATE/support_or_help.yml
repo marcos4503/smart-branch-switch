@@ -7,6 +7,7 @@ body:
     attributes:
       value: |
         > Don't delete the Tag. Try creating a descriptive title, but not an excessively long one.
+        
         ### 👋 Welcome to Support!
         **Before opening the request**, please **check the existing open/closed Issues** or Documentation/ReadMe (if applicable), to see if your question has already been answered. **Provide as much detail as possible** so we can assist you efficiently.
 
