@@ -13,16 +13,16 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: "What do you need help with? / What is your question?"
-      description: "Please describe your question or the problem you are facing in detail."
-      placeholder: "I am trying to configure the tool on my system, but I am unsure about..."
+      label: "What do you need help with?"
+      description: "Please describe the problem or what you need help or support with, providing as much detail as possible."
+      placeholder: "I'm having a problem with..."
     validations:
       required: true
 
   - type: textarea
     id: context
     attributes:
-      label: "Context / Environment"
+      label: "Context and Environment"
       description: "Are there any specific logs, versions, OS details, or error messages that might help us understand the situation?"
       placeholder: "Windows 11, using Smart Branch Switch v1.0.0. Terminal log output: ..."
     validations:
