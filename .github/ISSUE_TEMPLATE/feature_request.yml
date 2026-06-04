@@ -14,7 +14,7 @@ body:
   - type: textarea
     id: feature_details
     attributes:
-      label: "Feature Details"
+      label: "Feature or Improvement Details"
       description: "Describe the feature/improvement you'd like to see added. How should it work? What is the expected behavior?"
       placeholder: "I suggest adding a feature/improvement that..."
     validations:
