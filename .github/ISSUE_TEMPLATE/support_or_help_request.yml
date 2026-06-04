@@ -28,7 +28,7 @@ body:
       placeholder: |
         Using Project v1.0.0, Windows 11...
 
-        (For Logs, attach the file if you have)
+        (For Log Files or Config/Text Files, attach below)
     validations:
       required: false
 
