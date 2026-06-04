@@ -1,0 +1,21 @@
+name: "💡 Feature or Improvement Request"
+description: "Suggest a new feature, idea or improvement for the software/project."
+title: "[Feature] - "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > Don't delete the Tag. Try creating a descriptive title, but not an excessively long one.
+
+        ### 🌱 Your suggestion helps us improve!
+        Please **describe your proposal** with as much detail as possible, explaining **why** it would be useful and **how** it should work.
+
+  - type: textarea
+    id: feature_details
+    attributes:
+      label: "Feature Details"
+      description: "Describe the feature/improvement you'd like to see added. How should it work? What is the expected behavior?"
+      placeholder: "I suggest adding a feature/improvement that..."
+    validations:
+      required: true
