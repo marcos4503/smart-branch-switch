@@ -1,5 +1,5 @@
 name: "🛟 Support or Help Request"
-description: "Need help, have questions, or facing difficulties with the project or software?"
+description: "Need help, have questions, or facing difficulties with the project/software?"
 title: "[Support] - "
 labels: ["help wanted", "question"]
 body:
@@ -13,8 +13,8 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: "What do you need help with?"
-      description: "Please describe the problem or what you need help or support with, providing as much detail as possible."
+      label: "Description of the Request"
+      description: "What do you need help with? Describe the problem or what you need help/support with."
       placeholder: "I'm having a problem with..."
     validations:
       required: true
@@ -22,18 +22,16 @@ body:
   - type: textarea
     id: context
     attributes:
-      label: "Context and Environment"
-      description: "Are there any specific logs, versions, OS details, or error messages that might help us understand the situation?"
-      placeholder: "Windows 11, using Smart Branch Switch v1.0.0. Terminal log output: ..."
+      label: "Extra Context or Environment Info"
+      description: "Enter additional info, if necessary, such as Logs, running Environment/Platform/OS, Project version, etc."
+      placeholder: "Using Project v1.0.0, Windows 11, Log Output: ..."
     validations:
       required: false
 
   - type: checkboxes
     id: checklist
     attributes:
-      label: "Before submitting"
+      label: "Checks"
       options:
-        - label: "I have checked the documentation and existing issues, and my question is not answered there."
-          required: true
-        - label: "I understand that this is a public repository and any data shared here will be visible to everyone."
+        - label: "I have checked the existing Issues, and my request is not answered there."
           required: true
