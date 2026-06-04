@@ -22,7 +22,7 @@ body:
   - type: textarea
     id: context
     attributes:
-      label: "Extra Context or Environment Info"
+      label: "Extra Context"
       description: "Enter additional info, if necessary, such as Logs, running Environment/Platform/OS, Project version, etc."
       placeholder: "Using Project v1.0.0, Windows 11, Log Output: ..."
     validations:
