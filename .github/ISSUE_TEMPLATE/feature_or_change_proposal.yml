@@ -15,10 +15,10 @@ body:
     id: request_type
     attributes:
       label: "Profile"
-      description: "Are you suggesting a feedback as a user OR a technical change as a contributor?"
+      description: "Are you suggesting a feedback as a regular user OR a technical change as a contributor?"
       options:
         - "☕ User: I have an Suggestion"
-        - "🏗️ Contributor: I'ma propose a Code Change"
+        - "🏗️ Contributor: Code Change Proposal"
     validations:
       required: true
 
@@ -26,15 +26,7 @@ body:
     id: feature_details
     attributes:
       label: "Proposal Details"
-      description: "Describe your suggesting or change. Why is it needed? How should it work? (If proposing code, mention implementation details)."
+      description: "Describe your suggesting or change. Why is it needed? How should it work? (If is proposing code change, mention implementation details)"
       placeholder: "I suggest that... OR I propose refactoring the..."
     validations:
       required: true
-
-  - type: checkboxes
-    id: checklist
-    attributes:
-      label: "Checks"
-      options:
-        - label: "I have checked the existing Issues and my proposal is unique."
-          required: true
