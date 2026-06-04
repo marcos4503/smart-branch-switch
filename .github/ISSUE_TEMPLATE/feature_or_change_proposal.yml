@@ -14,11 +14,11 @@ body:
   - type: dropdown
     id: request_type
     attributes:
-      label: "What is your profile?"
-      description: "Select if you are suggesting an idea as a user or a technical change as a contributor."
+      label: "Profile"
+      description: "Are you suggesting a feedback as a user OR a technical change as a contributor?"
       options:
-        - "💡 User: I have an Idea / Improvement suggestion"
-        - "🏗️ Contributor: I want to propose a Code / Architecture change"
+        - "☕ User: I have an Suggestion!"
+        - "🏗️ Contributor: I want to propose a Code Change"
     validations:
       required: true
 
