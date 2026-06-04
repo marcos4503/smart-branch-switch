@@ -24,11 +24,11 @@ body:
     id: context
     attributes:
       label: "Extra Context"
-      description: "Enter additional info, if necessary, such as Logs, running Environment/Platform/OS, Project version, etc. (For Logs, attach the file if have)"
+      description: "Enter additional info, if necessary, such as Logs, running Environment/Platform/OS, Project version, etc."
       placeholder: |
         Using Project v1.0.0, Windows 11...
-        
-        (For Logs, attach the file if have)
+
+        (For Logs, attach the file if you have)
     validations:
       required: false
 
