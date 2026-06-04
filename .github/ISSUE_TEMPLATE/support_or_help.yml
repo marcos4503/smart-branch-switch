@@ -7,8 +7,7 @@ body:
     attributes:
       value: |
         ### 👋 Welcome to Support!
-        Before opening a support request, please check the existing closed Issues or Documentation/ReadMe/FAQs (if applicable) to see if your question has already been answered.
-        In the request, provide as much detail as possible so we can assist you efficiently.
+        Before opening a support request, please check the existing closed Issues or Documentation/ReadMe/FAQs (if applicable) to see if your question has already been answered. In this request, **provide as much detail as possible** so we can assist you efficiently.
 
   - type: textarea
     id: description
