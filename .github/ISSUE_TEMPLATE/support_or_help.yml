@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        <small>a</small>
-        
+        > a
+
         ---
         ### 👋 Welcome to Support!
         **Before opening the request**, please **check the existing closed Issues** or Documentation/ReadMe/FAQs (if applicable), to see if your question has already been answered. **Provide as much detail as possible** so we can assist you efficiently.
