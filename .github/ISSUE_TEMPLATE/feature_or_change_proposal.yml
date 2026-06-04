@@ -17,8 +17,8 @@ body:
       label: "Profile"
       description: "Are you suggesting a feedback as a user OR a technical change as a contributor?"
       options:
-        - "☕ User: I have an Suggestion!"
-        - "🏗️ Contributor: I want to propose a Code Change"
+        - "☕ User: I have an Suggestion"
+        - "🏗️ Contributor: I'ma propose a Code Change"
     validations:
       required: true
 
