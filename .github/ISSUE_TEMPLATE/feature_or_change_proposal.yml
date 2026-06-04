@@ -1,4 +1,4 @@
-name: "💡 Feature, Improve or Change Proposal"
+name: "🌱 Feature, Improve or Change Proposal"
 description: "Suggest a new feature, improvement, idea or a code change proposal for the software/project."
 title: "[Proposal] - "
 labels: ["enhancement"]
@@ -8,7 +8,7 @@ body:
       value: |
         > Don't delete the Tag. Try creating a descriptive title, but not an excessively long one.
 
-        ### 🌱 Thank you for helping the project evolve!
+        ### 💡 Thank you for helping the project evolve!
         Whether you are a **user** with a great suggestion or a **contributor** wanting to propose a **code change**, this is the place. Please be as detailed as possible, this helps us to better understand the proposal and how to implement it. :)
 
   - type: dropdown
