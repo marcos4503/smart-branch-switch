@@ -1,6 +1,6 @@
 name: "💡 Feature, Improve or Change Proposal"
 description: "Suggest a new feature, improvement, idea or a code change proposal for the software/project."
-title: "[Feature] - "
+title: "[Proposal] - "
 labels: ["enhancement"]
 body:
   - type: markdown
@@ -10,6 +10,17 @@ body:
 
         ### 🌱 Thank you for helping the project evolve!
         Whether you are a **user** with a great suggestion or a **contributor** wanting to propose a **code change**, this is the place. Please be as detailed as possible.
+
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: "What is your profile?"
+      description: "Select if you are suggesting an idea as a user or a technical change as a contributor."
+      options:
+        - "💡 User: I have an Idea / Improvement suggestion"
+        - "🏗️ Contributor: I want to propose a Code / Architecture change"
+    validations:
+      required: true
 
   - type: textarea
     id: feature_details
