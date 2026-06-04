@@ -1,0 +1,60 @@
+name: "🐞 Bug Report"
+description: "Report a reproducible error, glitch, or unexpected behavior in the software/project."
+title: "[Bug] - "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > Don't delete the Tag. Try creating a descriptive title, but not an excessively long one.
+
+        ### ⭐ Thank you for your help!
+        Before submitting this report, please **ensure the bug is reproducible** in the latest version of the software/project. Clear steps and details help fix the issue much faster.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Bug Description"
+      description: "A clear and concise description of what the bug is."
+      placeholder: "Describe exactly what happens..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: "Steps to Reproduce"
+      description: "Tell us exactly how to trigger the bug. Numbered steps are highly appreciated."
+      placeholder: |
+        1. Open the software
+        2. Click on '...'
+        3. Switch the branch to '...'
+        4. See the error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: "Expected Behavior"
+      description: "A clear and concise description of what you expected to happen."
+      placeholder: "What should have happened instead?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Environment & Logs"
+      description: "Provide hardware specs, OS, software version, or logs/crash reports if applicable."
+      placeholder: "Windows 11, v1.0.0, Error log: ..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Checks"
+      options:
+        - label: "I am using the latest version of the project and confirmed this bug is reproducible."
+          required: true
