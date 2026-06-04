@@ -8,8 +8,8 @@ body:
       value: |
         > Don't delete the Tag. Try creating a descriptive title, but not an excessively long one.
 
-        ### 🌱 Your suggestion helps us improve!
-        Please **describe your proposal** with as much detail as possible, explaining **why** it would be useful and **how** it should work.
+        ### 🌱 Thank you for helping the project evolve!
+        Whether you are a **user** with a great suggestion or a **contributor** wanting to propose a **code change**, this is the place. Please be as detailed as possible.
 
   - type: textarea
     id: feature_details
