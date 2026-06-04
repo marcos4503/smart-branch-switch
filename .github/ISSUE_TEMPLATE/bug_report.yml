@@ -14,9 +14,9 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: "Bug Description"
-      description: "A clear and concise description of what the bug is."
-      placeholder: "Describe exactly what happens..."
+      label: "Bug Details"
+      description: "What is happening? What was the expected behavior? Enter a clear and concise description of what the bug is."
+      placeholder: "Something is happening that shouldn't be happening..."
     validations:
       required: true
 
@@ -24,37 +24,28 @@ body:
     id: reproduction_steps
     attributes:
       label: "Steps to Reproduce"
-      description: "Tell us exactly how to trigger the bug. Numbered steps are highly appreciated."
+      description: "How do we make it happen? Tell exactly how to trigger the bug. Numbered steps are highly appreciated! :)"
       placeholder: |
-        1. Open the software
+        1. Open the '...'
         2. Click on '...'
-        3. Switch the branch to '...'
-        4. See the error
-    validations:
-      required: true
-
-  - type: textarea
-    id: expected_behavior
-    attributes:
-      label: "Expected Behavior"
-      description: "A clear and concise description of what you expected to happen."
-      placeholder: "What should have happened instead?"
+        3. Do '...'
+        4. See the error/bug '...'
     validations:
       required: true
 
   - type: textarea
     id: context
     attributes:
-      label: "Environment & Logs"
-      description: "Provide hardware specs, OS, software version, or logs/crash reports if applicable."
-      placeholder: "Windows 11, v1.0.0, Error log: ..."
+      label: "Extra Context"
+      description: "Enter additional info, if necessary, such as Logs, running Environment/Platform/OS, Project version, etc."
+      placeholder: "Using Project v1.0.0, Windows 11, Using Project together with '...' software, Log Output: ..."
     validations:
-      required: false
+      required: true
 
   - type: checkboxes
     id: checklist
     attributes:
       label: "Checks"
       options:
-        - label: "I am using the latest version of the project and confirmed this bug is reproducible."
+        - label: "I'm using the latest version of the Project/Software and this bug is reproducible."
           required: true
