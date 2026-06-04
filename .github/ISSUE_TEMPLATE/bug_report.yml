@@ -38,7 +38,7 @@ body:
     attributes:
       label: "Extra Context"
       description: "Enter additional info, such as Logs, running Environment/Platform/OS, Project version, etc."
-      placeholder: "Using Project v1.0.0, Windows 11, Using Project together with '...' software, Log Output: ..."
+      placeholder: "Using Project v1.0.0, Windows 11, Using Project together with '...' software..."
     validations:
       required: true
 
