@@ -25,8 +25,16 @@ body:
   - type: textarea
     id: feature_details
     attributes:
-      label: "Feature or Improvement Details"
-      description: "Describe the feature/improvement you'd like to see added. How should it work? What is the expected behavior?"
-      placeholder: "I suggest adding a feature/improvement that..."
+      label: "Proposal Details"
+      description: "Describe your suggesting or change. Why is it needed? How should it work? (If proposing code, mention implementation details)."
+      placeholder: "I suggest that... OR I propose refactoring the..."
     validations:
       required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Checks"
+      options:
+        - label: "I have checked the existing Issues and my proposal is unique."
+          required: true
