@@ -27,6 +27,7 @@ body:
       description: "Enter additional info, if necessary, such as Logs, running Environment/Platform/OS, Project version, etc. (For Logs, attach the file if have)"
       placeholder: |
         Using Project v1.0.0, Windows 11...
+        
         (For Logs, attach the file if have)
     validations:
       required: false
