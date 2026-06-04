@@ -26,7 +26,7 @@ body:
     id: feature_details
     attributes:
       label: "Proposal Details"
-      description: "Describe your suggesting or change. Why is it needed? How should it work? (If is proposing code change, mention implementation details)"
+      description: "Describe your suggesting or change. Why is it needed? How should it work? (For proposal of code change, mention implementation details)"
       placeholder: "I suggest that... OR I propose refactoring the..."
     validations:
       required: true
