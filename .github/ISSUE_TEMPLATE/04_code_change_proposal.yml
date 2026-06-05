@@ -9,8 +9,7 @@ body:
         > Don't delete the Tag. Try creating a descriptive title, but not an excessively long one.
 
         ### 🌱 Thank you for helping the project evolve!
-        If you are a existing or a new **Contributor** wanting to propose a **Code Change**, this is the place. Open this Issue to discuss the **Code Change** that you want to implement in the Product.
-        After discussing here, you can create a new Branch on this Repository (or Fork it to your account, and then open a new Branch, if you're external) and open a **Pull Request** referencing this Issue.
+        If you are a existing or a new **Contributor** wanting to propose a **Code Change**, this is the place. Open this Issue to discuss the **Code Change** that you want to implement in the Product. After discussing here, you can create a new Branch on this Repository (or Fork it to your account, and then open a new Branch, if you're external) and open a **Pull Request** referencing this Issue.
         Please be as detailed as possible, this helps us to better understand the proposal and how it will be implemented. :)
 
   - type: textarea
