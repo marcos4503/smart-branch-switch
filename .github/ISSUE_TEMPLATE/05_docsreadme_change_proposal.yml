@@ -14,7 +14,7 @@ body:
         - After discussing here, you can create a **new Branch** on this Repository (**or, if you're external**, Fork it to your account, then open a **new Branch** to work on the change).
         - After implementing the change in the new Branch, **open a Pull Request** referencing this Issue, in this Repository, to bring the change, officially.
         
-        Please be as detailed as possible. Clear documentation helps new users and Contributors understand the project faster. :)
+        Clear Documentation helps new users understand the project faster. Please be as detailed as possible. :)
 
   - type: dropdown
     id: request_type
