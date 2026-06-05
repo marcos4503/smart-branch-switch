@@ -37,8 +37,13 @@ body:
     id: context
     attributes:
       label: "Extra Context"
-      description: "Enter additional info, such as Logs, running Environment/Platform/OS, Project version, etc."
-      placeholder: "Using Project v1.0.0, Windows 11, Using Project together with '...' software..."
+      description: "Enter additional info, such as Product version, Logs, running Environment/Platform/OS, etc. Anything you find useful."
+      placeholder: |
+        I'm using Product vX.X.X...
+        I'm using the Product together with '...'
+        I'm using the Product on Environment/Platform/OS '...'
+        etc...
+        (For Log Files or Config/Text Files, attach below)
     validations:
       required: true
 
@@ -47,5 +52,5 @@ body:
     attributes:
       label: "Checks"
       options:
-        - label: "I'm using the latest version of the Project/Software and this bug is reproducible."
+        - label: "I'm using the latest version of the Product and this bug is reproducible."
           required: true
