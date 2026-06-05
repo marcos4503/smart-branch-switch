@@ -1,0 +1,34 @@
+name: "✏️ Documentation/ReadMe Change Proposal"
+description: "Start a discussion as an existing or new Contributor, to propose a Documentation/ReadMe Change that you want to make."
+title: "[DOCS] - "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > Don't delete the Tag. Try creating a descriptive title, but not an excessively long one.
+
+        ### 👓 Thank you for helping the project evolve!
+        If you are an existing or a new **Contributor** wanting to propose a **Code Change**, this is the place. Open this Issue to discuss the **Code Change** that you want to implement in the Product. Any contribution is welcome, even the smallest!
+
+        - After discussing here, you can create a **new Branch** on this Repository (**or, if you're external**, Fork it to your account, then open a **new Branch** to work on the change).
+        - After implementing the change in the new Branch, **open a Pull Request** referencing this Issue, in this Repository, to bring the change, officially, to the Product.
+        
+        Please be as detailed as possible, this helps us to better understand the proposal and how it will be implemented. :)
+
+  - type: textarea
+    id: change_details
+    attributes:
+      label: "Code Change Details"
+      description: "Describe the Code Change. Why is it needed? What will be implemented? How should it be implemented?"
+      placeholder: "I propose implementing/changing/refactoring..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Checks"
+      options:
+        - label: "I've already read the \"CONTRIBUTING.md\" file from this repository."
+          required: true
