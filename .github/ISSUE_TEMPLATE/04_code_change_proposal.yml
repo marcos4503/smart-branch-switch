@@ -30,5 +30,5 @@ body:
     attributes:
       label: "Checks"
       options:
-        - label: "I've already read the 'CONTRIBUTING.md' file from this repository."
+        - label: "I've already read the \"CONTRIBUTING.md\" file from this repository."
           required: true
