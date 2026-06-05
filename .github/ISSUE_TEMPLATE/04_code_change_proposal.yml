@@ -1,5 +1,5 @@
 name: "🏗️ Code Change Proposal"
-description: "Start a discussion as a Contributor, to propose a Code Change that you want to make to the Product."
+description: "Start a discussion as a existing or new Contributor, to propose a Code Change that you want to make to the Product."
 title: "[CODE] - "
 labels: ["enhancement"]
 body:
