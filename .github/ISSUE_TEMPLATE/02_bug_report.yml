@@ -1,6 +1,6 @@
 name: "🐞 Bug Report"
-description: "Report a reproducible bug, error, glitch, or unexpected behavior in the software/project."
-title: "[Bug] - "
+description: "Report a reproducible bug, error, glitch, or unexpected behavior in the Product."
+title: "[BUG] - "
 labels: ["bug"]
 body:
   - type: markdown
@@ -9,7 +9,7 @@ body:
         > Don't delete the Tag. Try creating a descriptive title, but not an excessively long one.
 
         ### ⭐ Thank you for your help!
-        Before submitting this report, please **ensure the bug is reproducible** in the latest version of the software/project. Clear steps and details help fix the issue much faster.
+        Before submitting this report, please **ensure the bug is reproducible** in the latest version of the Product. Clear steps and details help fix the issue much faster.
 
   - type: textarea
     id: description
