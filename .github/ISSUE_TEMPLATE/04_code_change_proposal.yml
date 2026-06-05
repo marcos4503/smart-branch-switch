@@ -1,0 +1,21 @@
+name: "🏗️ Code Change Proposal"
+description: "Start a discussion as a Contributor, to propose a Code Change you want to make to the Product."
+title: "[FEATURE] - "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > Don't delete the Tag. Try creating a descriptive title, but not an excessively long one.
+
+        ### ❤️ Your suggestion is very important!
+        If you are a **user** and want to suggest a new feature or improvement in the Product, this is the place. Please be as detailed as possible, this helps us to better understand the suggestion and how to implement it. :)
+
+  - type: textarea
+    id: suggestion_details
+    attributes:
+      label: "Suggestion Details"
+      description: "Describe your suggestion. Why is it needed? How should it work?"
+      placeholder: "I suggest that..."
+    validations:
+      required: true
