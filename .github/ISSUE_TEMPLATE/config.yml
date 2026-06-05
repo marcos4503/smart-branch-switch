@@ -1,0 +1,11 @@
+blank_issues_enabled: true # Define se o botão "Blank issue" aparece no final da lista
+
+templates:
+  - name: "🛟 Support or Help Request"
+    filename: support_or_help_request.yml
+
+  - name: "🐞 Bug Report"
+    filename: bug_report.yml
+
+  - name: "🌱 Feature, Improve or Change Proposal"
+    filename: feature_or_change_proposal.yml
