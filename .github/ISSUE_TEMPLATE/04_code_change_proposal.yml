@@ -11,8 +11,8 @@ body:
         ### 🌱 Thank you for helping the project evolve!
         If you are a existing or a new **Contributor** wanting to propose a **Code Change**, this is the place. Open this Issue to discuss the **Code Change** that you want to implement in the Product.
 
-        - After discussing here, you can create a new Branch on this Repository (or, if you're external, Fork it to your account, then open a new Branch).
-        - After implementing the change in the new Branch, open a **Pull Request** referencing this Issue, to bring the change, officially, to the Product.
+        - After discussing here, you can create a **new Branch** on this Repository (**or, if you're external**, Fork it to your account, then open a **new Branch**).
+        - After implementing the change in the new Branch, **open a Pull Request** referencing this Issue, to bring the change, officially, to the Product.
         
         Please be as detailed as possible, this helps us to better understand the proposal and how it will be implemented. :)
 
