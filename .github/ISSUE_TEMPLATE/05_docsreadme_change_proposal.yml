@@ -22,18 +22,18 @@ body:
       label: "Scope of Change"
       description: "What is the scope of the change you intend to make?"
       options:
-        - "☕ Just the main README.md"
-        - "🏗️ Other Text/HTML files"
-        - "🏗️ Main README.md & Text/HTML files"
+        - "📄 Just the main README.md"
+        - "📖 Other Text/HTML files"
+        - "🎋 Main README.md & Text/HTML files"
     validations:
       required: true
 
   - type: textarea
     id: change_details
     attributes:
-      label: "Code Change Details"
-      description: "Describe the Code Change. Why is it needed? What will be implemented? How should it be implemented?"
-      placeholder: "I propose implementing/changing/refactoring..."
+      label: "Docs Change Details"
+      description: "Describe the change you are suggesting. Why is it needed? What should be updated or improved?"
+      placeholder: "I suggest updating the ReadMe section about..."
     validations:
       required: true
 
