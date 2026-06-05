@@ -26,7 +26,7 @@ body:
       label: "Extra Context"
       description: "Enter additional info, if necessary, such as Product version, Logs, running Environment/Platform/OS, etc."
       placeholder: |
-        I'm using Product v1.0.0 on Windows 11...
+        I'm using Product vX.X.X on '...', etc...
         (For Log Files or Config/Text Files, attach below)
     validations:
       required: false
