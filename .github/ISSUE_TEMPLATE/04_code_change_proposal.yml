@@ -1,5 +1,5 @@
 name: "🏗️ Code Change Proposal"
-description: "Start a discussion as a existing or new Contributor, to propose a Code Change that you want to make to the Product."
+description: "Start a discussion as an existing or new Contributor, to propose a Code Change that you want to make to the Product."
 title: "[CODE] - "
 labels: ["enhancement"]
 body:
@@ -9,7 +9,7 @@ body:
         > Don't delete the Tag. Try creating a descriptive title, but not an excessively long one.
 
         ### 🌱 Thank you for helping the project evolve!
-        If you are a existing or a new **Contributor** wanting to propose a **Code Change**, this is the place. Open this Issue to discuss the **Code Change** that you want to implement in the Product.
+        If you are a existing or a new **Contributor** wanting to propose a **Code Change**, this is the place. Open this Issue to discuss the **Code Change** that you want to implement in the Product. Any contribution is welcome, even the smallest!
 
         - After discussing here, you can create a **new Branch** on this Repository (**or, if you're external**, Fork it to your account, then open a **new Branch**).
         - After implementing the change in the new Branch, **open a Pull Request** referencing this Issue, to bring the change, officially, to the Product.
@@ -24,3 +24,11 @@ body:
       placeholder: "I propose implementing/changing/refactoring..."
     validations:
       required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Checks"
+      options:
+        - label: "I've already read the 'CONTRIBUTING.md' file from this repository."
+          required: true
