@@ -23,8 +23,8 @@ body:
       description: "What is the scope of the change you intend to make?"
       options:
         - "☕ Just the main README.md"
-        - "🏗️ Other MD/TXT/HTML files"
-        - "🏗️ Main README.md & MD/TXT/HTML files"
+        - "🏗️ Other Text/HTML files"
+        - "🏗️ Main README.md & Text/HTML files"
     validations:
       required: true
 
