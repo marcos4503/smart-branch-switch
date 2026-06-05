@@ -24,7 +24,7 @@ body:
       options:
         - "☕ Just the main README.md"
         - "🏗️ Other MD/TXT/HTML files"
-        - "🏗️ README.md and other MD/TXT/HTML files"
+        - "🏗️ Main README.md & MD/TXT/HTML files"
     validations:
       required: true
 
