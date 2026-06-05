@@ -1,6 +1,6 @@
 name: "🛟 Support or Help Request"
-description: "Need help, have questions, or facing difficulties with the project/software?"
-title: "[Support] - "
+description: "Need help, have questions or facing difficulties with the Product?"
+title: "[SUPPORT] - "
 labels: ["help wanted", "question"]
 body:
   - type: markdown
@@ -15,7 +15,7 @@ body:
     id: description
     attributes:
       label: "Support Details"
-      description: "What do you need help with? Describe the problem or what you need help/support with."
+      description: "What do you need help with? Describe the problem or what you need support with."
       placeholder: "I'm having a problem with..."
     validations:
       required: true
@@ -24,9 +24,9 @@ body:
     id: context
     attributes:
       label: "Extra Context"
-      description: "Enter additional info, if necessary, such as Logs, running Environment/Platform/OS, Project version, etc."
+      description: "Enter additional info, if necessary, such as Product version, Logs, running Environment/Platform/OS, etc."
       placeholder: |
-        Using Project v1.0.0, Windows 11...
+        I'm using Product v1.0.0 on Windows 11...
         (For Log Files or Config/Text Files, attach below)
     validations:
       required: false
