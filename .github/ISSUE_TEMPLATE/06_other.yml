@@ -25,5 +25,5 @@ body:
     attributes:
       label: "Checks"
       options:
-        - label: "I have checked the existing Issues. My request is not answered there."
+        - label: "I have checked the existing open/closed Issues. My request is not answered there."
           required: true
