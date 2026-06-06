@@ -16,7 +16,7 @@ Just know that every Contribution is appreciated, even the smallest ones. This t
 
 Technically, you can Contribute to this Repository in the following ways:
 
-- **📌 Testing the Product from this Repository:** You can do this simply by using the Product from this Repository, and as you see fit, execute the next items on this list.
+- **📌 Testing the Product from this Repository:** You can do this simply by using the Product from this Repository, and as you see necessary, execute the next items on this list.
 - **📌 Reporting Bugs:** This can be done through the `Issues` tab of this Repository.
 - **📌 Suggesting Enhancements or giving your Feedback:** This can be done through the `Issues` tab of this Repository.
 - **📌 Proposing Code Changes:** This can be done through `Pull Requests` (this will be discussed in more detail below). It's great if you want to get your hands-on and work on the Source Code of this Repository, implementing new Features, Improvements, Optimizations, Fixes, and Refactorings yourself.
