@@ -105,7 +105,11 @@ For **`📋 Maintainers+`**, there are a few other things...
 
 ### 🚩 Source Code Branches That Never Will Be Merged, Creation Guidelines
 
-  - The names of these Source Code or Project Branches must follow the naming format `source-<operational-system-or-platform>-<framework-or-technology>`. For example: **source-1.20.1-forge**, **source-linux-javafx**, **source-web-vanilla.js**, **source-web-package.ts**, **source-game-modloader** or **source-any-unity**.
+The names of these Source Code or Project Branches must follow the naming format:
+
+- `source-<operational-system-or-platform>-<framework-or-technology>`
+
+For example: **`source-1.20.1-forge`**, **`source-linux-javafx`**, **`source-web-vanilla.js`**, **`source-web-package.ts`**, **`source-game-modloader`** or **`source-any-unity`**.
 
 ### 🚩 Branches That Always Will Be Merged, Creation Guidelines
 
