@@ -27,7 +27,7 @@ Before we continue, it's helpful to differentiate between the different Reposito
 - **Owner:** Owns the Repository. Has full control and can perform any action.
 - **Admin:** Has almost all the permissions of the Owner and can manage nearly everything. Acts as a secondary owner.
 - **Maintainer:** Manages the project on a daily basis. Reviews Pull Requests, manages Issues, defines the Roadmap, approves merges and ensures overall project health.
-- **Contributor:** Anyone outside the core team who participates by submitting Code Changes, Documentation/ReadMe Changes, suggestions, bug reports, or other Contributions. The Maintainer+ members can also make Contributions, but they have direct write access to the Repository.
+- **Contributor:** Anyone outside the core team who participates by submitting Code Changes, Documentation/ReadMe Changes, suggestions, bug reports, or other Contributions. The Maintainer+ member can also make Contributions, but they have direct write access to the Repository.
 
 ### How do I send Pull Requests?
 
