@@ -84,7 +84,7 @@ Now that you have the basic context of Branches, understanding how to send Pull 
 
 Pull Requests are the heart of collaboration. They allow you to propose changes, discuss them openly, and improve the project together with the Community. ❤️
 
-### Code/Documentation/ReadMe Changes Submission Guidelines
+### Repository Changes Submission Guidelines
 
 Currently, these are the guidelines you should follow, as a `🤝 Contributor` to submit changes to this Repository:
 
