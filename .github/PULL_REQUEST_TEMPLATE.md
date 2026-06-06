@@ -1,16 +1,19 @@
-## 📝 Descrição
-Proporcione uma descrição clara e concisa das alterações feitas neste Pull Request.
+## 📝 Pull Request Description
+[ Enter a clear and concise description of the changes made in this Pull Request. ]
 
-Vínculo com a Issue: Closes #[Insira o número da Issue aqui]
+## 🔴 Issue Linking
+- Closes #[ Enter the Issue number here! ]
 
-## 🛠️ Tipo de Alteração
-- [ ] 🐛 Bugfix (correção que não quebra recursos existentes)
-- [ ] ✨ Feature (novo recurso adicionado ao projeto)
-- [ ] ⚡ Performance / Otimização (melhoria de desempenho)
-- [ ] 🔄 Refactor / Cleanup (faxina técnica ou reestruturação de código)
+> NOTE: IF YOUR PULL REQUEST MODIFIES OR ADDS A CONSIDERABLE AMOUNT OF CODE, AND IT DOES NOT HAVE A LINKED ISSUE, THERE IS A HIGH CHANCE IT WILL BE REJECTED, AS THIS MEANS IT IS A CHANGE THAT HAS NOT BEEN DISCUSSED. **THIS NOTE CAN BE DELETED FROM YOUR PULL REQUEST! :)**
 
-## 🔍 Checklist de Qualidade (Vanilla+)
-- [ ] Meu código segue as diretrizes de estilo do projeto descritas no `CONTRIBUTING.md`.
-- [ ] Eu fiz uma revisão própria (self-review) do meu código para caçar redundâncias ou logs esquecidos.
-- [ ] Eu testei as alterações localmente e o projeto buildou sem erros.
-- [ ] Os alinhamentos de UI/UX foram validados e estão milimetricamente corretos (se aplicável).
+## 🛠️ Change Type
+- [ ] 🐞 Bugfix (A fix that doesn't break existing features)
+- [ ] ✨ Feature (New feature/improve added to the project)
+- [ ] ⚡ Performance/Optimization (performance improvement or similar issues)
+- [ ] 🔄 Refactor/Cleanup (technical cleanup or code restructuring)
+
+## 🔍 Quality Checklist
+- [ ] My code/change follows the project style/rules guidelines described in `CONTRIBUTING.md` file.
+- [ ] If have a Code Change: I tested my new code and it worked as expected.
+- [ ] If have a Code Change: I tested the changes locally and the project built without errors.
+- [ ] If have a Code Change: I updated the Documentation/ReadMe, if necessary.
