@@ -33,7 +33,7 @@ Before we continue, it's helpful to differentiate between the different Reposito
 
 ### How do I send Pull Requests?
 
-So, you want to get your hands-on and you want to implement new Features, Improvements, Optimizations, Fixes, Refactorings or updates on Documentation/ReadMe, yourself? Perfect! Here you'll find everything you need to know!
+So, you want to get your hands-on and implement new Features, Improvements, Optimizations, Fixes, Refactorings or updates on Documentation/ReadMe, yourself? Perfect! Here you'll find everything you need to know!
 
 <details>
   <summary> It's important that you understand the basics of Branches before continuing. To learn more, expand this section!</summary>
