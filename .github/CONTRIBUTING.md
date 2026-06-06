@@ -2,7 +2,9 @@ This page is designed to guide you and provide guidelines on what to do and how 
 
 # ☕ Are you a Regular User of this Product?
 
-If you are a Regular User of this Repository's Product and are not interested in Contributing technically, but need help, want to report a bug, ask a question, suggest a new feature, or something similar, go to the `Issues` tab of this Repository. After that, click on `New Issue` to create a topic for your request. You can also `💖 Sponsor` this project to help keep it going!
+If you are a Regular User of this Repository's Product and are not interested in Contributing technically, but need help, want to report a bug, ask a question, suggest a new feature, or something similar, go to the `Issues` tab of this Repository. After that, click on `New Issue` to create a topic for your request.
+
+You can also `💖 Sponsor` this project to help keep it going!
 
 # 🤝 Do you want to Contribute technically?
 
