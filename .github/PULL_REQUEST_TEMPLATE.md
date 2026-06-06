@@ -15,5 +15,5 @@
 ## 🔍 Quality Checklist
 - [ ] My code/change follows the project style/rules guidelines described in `CONTRIBUTING.md` file.
 - [ ] If have a Code Change: I tested my new code and it worked as expected.
-- [ ] If have a Code Change: I tested the changes locally and the project built without errors.
-- [ ] If have a Code Change: I updated the Documentation/ReadMe, if necessary.
+- [ ] If have a Code Change: I tested the changes locally and the project built/work without errors.
+- [ ] If have a Code Change: I updated the Documentation/ReadMe, where/if necessary.
