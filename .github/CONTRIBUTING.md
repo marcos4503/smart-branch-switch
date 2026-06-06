@@ -50,17 +50,17 @@ Now that you have the basic context of Branches, understanding how to send Pull 
 
 👉 To submit a Pull Request with your Code Changes or Documentation/ReadMe Changes, simply follow these steps:
 
-- 🤝 If you are or want to be a **Contributor**
+- 🤝 **If you are or want to be a Contributor**
   - ☑️ It all starts with you creating an Issue to discuss the change you want to make to the Project. You can do this by going to the `Issues` tab of this Repository, and then creating an Issue using the `Code Change Proposal` or `Documentation/ReadMe Change Proposal` option. You are encouraged to create this discussion Issue before you begin working because it's good to have a debate about what will be changed, so there's an understanding of how it will be done, why it will be done, the benefits, etc. If the change you intend to make is small, creating this Issue is not mandatory, but if the change is considerable, then it becomes indispensable, and if you don't create the discussion Issue, your Pull Request may be rejected. If you create an Issue for discussion, only start working on it if the Maintainers+ agree that what you are proposing has the green light.
   - ☑️ Fork this Repository. This will "copy" it to your GitHub Account. From there, simply clone the Fork to your PC.
   - ☑️ Create a new Branch to start working on what you want to implement. Remember to select the Source Branch that contains the Source Code that you want to modify!
   - ☑️ Within this new Branch you created, work on the modifications you want to implement in this project!
-- 📋 If you are a **Mantainer+**
+- 📋 **If you are a Mantainer+**
   - ☑️ It all starts with you discussing with other Maintainers+ what you intend to change. Just like a Contributor would, but you likely have other communication channels with other Maintainers+ besides the `Issues` tab. If the green light, proceed.
   - ☑️ Just clone this Repository to your PC, because you already have write permissions.
   - ☑️ Create a new Branch to start working on what you want to implement. Remember to select the Source Branch that contains the Source Code that you want to modify, but, remember to follow the Branch creation guidelines when creating a Branch. They are located below!
   - ☑️ Within this new Branch you created, work on the modifications you want to implement in this project!
-- 🤝📋 Continuing, for **Contributor** or **Maintainer+**...
+- 🤝📋 **Continuing, for Contributor or Maintainer+...**
   - ☑️ Once your work is finished on your PC, Commit it, followed by a Push to send your work to the Remote Repository. If you are a **Contributor** your work will be sent to your Fork in your GitHub Account. If you are a **Maintainer+**, your work will be sent to the Original Repository.
   - ☑️ Now, to create the Pull Request, go to the GitHub website, open your Forked Repository (if you are a **Contributor**) or the Original Repository (if you are a **Mantainer+**), and go to the `Pull Request` tab. There, you will click on `New Pull Request`.
   - ☑️ On this screen, to configure properly, at the top of the interface, under "Base Repository," select the Original Repository and the Branch to which you want to apply the changes. Select carefully. Under "Head Repository," select your Fork Repository (if you are a **Contributor**) or the Original Repository (if you are a **Mantainer+**) and the Branch you created to work with. View the changes. Now you can compare what has changed from your Branch of work, to the Branch that you want to apply the changes. 
