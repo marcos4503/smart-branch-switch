@@ -117,17 +117,17 @@ For Branches that will always be Merged with another Branch, they should follow 
 
 | Branch Type          | Naming Pattern           | Example                                   |
 | :------------------- | :----------------------- | :---------------------------------------- |
-| **Release Work**     | `release-<description>`  | `source-1.20.1-forge/release-2.0.0`       |
-| **Hotfix Work**      | `hotfix-<description>`   | `source-1.20.1-forge/hotfix-gameplay-bug` |
-| **Bug Fixes Work**   | `fix-<description>`      | `source-1.20.1-forge/fix-hud-alignment`   |
-| **Features Work**    | `feature-<description>`  | `source-1.20.1-forge/feature-new-sound`   |
-| **Chore Work**       | `chore-<description>`    | `source-1.20.1-forge/chore-update-libs`   |
-| **Refactor Work**    | `refactor-<description>` | `source-1.20.1-forge/refactor-var-names`  |
-| **Test Work**        | `test-<description>`     | `source-1.20.1-forge/test-add-new-test`   |
-| **Docs Work**        | `docs-<description>`     | `source-1.20.1-forge/docs-api-guide`      |
-| **Performance Work** | `perf-<description>`     | `source-1.20.1-forge/perf-cache-optimize` |
-| **CI/Build Work**    | `ci-<description>`       | `source-1.20.1-forge/ci-github-actions`   |
-| **Style Work**       | `style-<description>`    | `source-1.20.1-forge/style-code-beauty`   |
+| **Release Work**     | `release/<description>`  | `source-1.20.1-forge/release/2.0.0`       |
+| **Hotfix Work**      | `hotfix/<description>`   | `source-1.20.1-forge/hotfix/gameplay-bug` |
+| **Bug Fixes Work**   | `fix/<description>`      | `source-1.20.1-forge/fix/hud-alignment`   |
+| **Features Work**    | `feature/<description>`  | `source-1.20.1-forge/feature/new-sound`   |
+| **Chore Work**       | `chore/<description>`    | `source-1.20.1-forge/chore/update-libs`   |
+| **Refactor Work**    | `refactor/<description>` | `source-1.20.1-forge/refactor/var-names`  |
+| **Test Work**        | `test/<description>`     | `source-1.20.1-forge/test/add-new-test`   |
+| **Docs Work**        | `docs/<description>`     | `source-1.20.1-forge/docs/api-guide`      |
+| **Performance Work** | `perf/<description>`     | `source-1.20.1-forge/perf/cache-optimize` |
+| **CI/Build Work**    | `ci/<description>`       | `source-1.20.1-forge/ci/github-actions`   |
+| **Style Work**       | `style/<description>`    | `source-1.20.1-forge/style/code-beauty`   |
 
 ### 🚩 Branch Maintenance Conventions
 
