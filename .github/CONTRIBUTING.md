@@ -89,8 +89,8 @@ Pull Requests are the heart of collaboration. They allow you to propose changes,
 Currently, these are the guidelines you should follow, as a `🤝 Contributor` to submit changes to this Repository:
 
 - ⚠️ Comments in Source Code or Text files should be in **English**.
-- ⚠️ In Source Code, any logic that is more complex should have clear comments explaining it.
-- ⚠️ For UI/UX/Code/Documentation/ReadMe changes, try to follow the same organizational and visual standards as the rest of the project.
+- ⚠️ In Source Code, any logic that is more complex should have clear Comments explaining it.
+- ⚠️ For UI, UX, Code, Text, HTML, Documentation or ReadMe changes, try to follow the same organizational and visual standards as the rest of the project.
 
 ### Need Help?
 
