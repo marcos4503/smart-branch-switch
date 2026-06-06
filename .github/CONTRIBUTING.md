@@ -133,5 +133,4 @@ For Branches that will always be Merged with another Branch, they should follow 
 
 - Keep the same `.gitignore` file in all Branches. This prevents one Branch from accidentally considering a file ignored by another Branch, which can cause a mess, and also helps maintain consistency across Branches, while working on Local Repository.
 
-> [!NOTE]
-> For managing multiple Branches, it is recommended to install **Smart Branch Switch** in the Local Repository. This will help keep the work environment clean and organized, and will also provide alerts if anything is out of the ordinary, such as the absence of the files mentioned above. For more information about the **Smart Branch Switch**, click <a href="https://github.com/marcos4503/smart-branch-switch">here</a>.
+ℹ️ For managing multiple Branches, it is recommended to install **Smart Branch Switch** in the Local Repository. This will help keep the work environment clean and organized, and will also provide alerts if anything is out of the ordinary, such as the absence of the files mentioned above. For more information about the **Smart Branch Switch**, click <a href="https://github.com/marcos4503/smart-branch-switch">here</a>.
