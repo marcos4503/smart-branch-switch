@@ -6,7 +6,9 @@ If you are a Regular User of this Repository's Product and are not interested in
 
 # 🤝 Do you want to Contribute technically?
 
-If you want to Contribute technically to this Repository, proposing Code Changes and things like that, this is the topic for you! Here you will see the guidelines for Contributions, how to make Contributions, etc. Know that every Contribution is appreciated, even the smallest ones. Thank you for investing your time in Contributing to our project! ✨
+If you want to Contribute technically to this Repository, proposing Code Changes and things like that, this is the topic for you! Here you will see the guidelines for Contributions, how to make Contributions, etc.
+
+Know that every Contribution is appreciated, even the smallest ones. Thank you for investing your time in Contributing to our project! ✨
 
 ## How to Contribute
 
