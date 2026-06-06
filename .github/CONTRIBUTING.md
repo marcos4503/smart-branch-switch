@@ -131,7 +131,7 @@ For Branches that will always be Merged with another Branch, they should follow 
 
 <table>
   <tr>
-    <th style="width:150px">Coluna curta</th>
+    <th style="width:75px">Coluna curta</th>
     <th>Coluna longa</th>
   </tr>
   <tr>
