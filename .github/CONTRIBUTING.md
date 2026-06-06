@@ -115,19 +115,19 @@ For example: **`source-1.20.1-forge`**, **`source-linux-javafx`**, **`source-web
 
 For Branches that will always be Merged with another Branch, they should follow the naming pattern below. **Branches that do not follow this convention will be deleted!**
 
-| Branch Type                                                      | Naming Pattern    | Example                                   |
-| :--------------------------------------------------------------- | :---------------- | :---------------------------------------- |
-| Release Work: To prepare a production version of the product.    | `release/<name>`  | `source-1.20.1-forge/release/2.0.0`       |
-| Hotfix Work: For urgent production fixes.                        | `hotfix/<name>`   | `source-1.20.1-forge/hotfix/gameplay-bug` |
-| Bug Fixes Work: For bug fixes.                                   | `fix/<name>`      | `source-1.20.1-forge/fix/hud-alignment`   |
-| Features Work: For new features or improvements.                 | `feature/<name>`  | `source-1.20.1-forge/feature/new-sound`   |
-| Chore Work: For maintenance tasks that not affect product logic. | `chore/<name>`    | `source-1.20.1-forge/chore/update-libs`   |
-| Refactor Work: To refactor code without changing behavior.       | `refactor/<name>` | `source-1.20.1-forge/refactor/var-names`  |
-| Test Work: To create or adjust automated tests.                  | `test/<name>`     | `source-1.20.1-forge/test/add-new-test`   |
-| Docs Work: For docs changes (Documentation, ReadMe, Comments).   | `docs/<name>`     | `source-1.20.1-forge/docs/api-guide`      |
-| Performance Work: For performance optimizations.                 | `perf/<name>`     | `source-1.20.1-forge/perf/cache-optimize` |
-| CI/Build Work: For tweaks on pipelines, CI, or Build scripts.    | `ci/<name>`       | `source-1.20.1-forge/ci/github-actions`   |
-| Style Work: For formatting changes, lint, code standardization.  | `style/<name>`    | `source-1.20.1-forge/style/code-beauty`   |
+| Branch Type                                                       | Naming Pattern    | Example                                   |
+| :---------------------------------------------------------------- | :---------------- | :---------------------------------------- |
+| **Release Work:** To prepare a production version of the product. | `release/<name>`  | `source-1.20.1-forge/release/2.0.0`       |
+| Hotfix Work: For urgent production fixes.                         | `hotfix/<name>`   | `source-1.20.1-forge/hotfix/gameplay-bug` |
+| Bug Fixes Work: For bug fixes.                                    | `fix/<name>`      | `source-1.20.1-forge/fix/hud-alignment`   |
+| Features Work: For new features or improvements.                  | `feature/<name>`  | `source-1.20.1-forge/feature/new-sound`   |
+| Chore Work: For maintenance tasks that not affect product logic.  | `chore/<name>`    | `source-1.20.1-forge/chore/update-libs`   |
+| Refactor Work: To refactor code without changing behavior.        | `refactor/<name>` | `source-1.20.1-forge/refactor/var-names`  |
+| Test Work: To create or adjust automated tests.                   | `test/<name>`     | `source-1.20.1-forge/test/add-new-test`   |
+| Docs Work: For docs changes (Documentation, ReadMe, Comments).    | `docs/<name>`     | `source-1.20.1-forge/docs/api-guide`      |
+| Performance Work: For performance optimizations.                  | `perf/<name>`     | `source-1.20.1-forge/perf/cache-optimize` |
+| CI/Build Work: For tweaks on pipelines, CI, or Build scripts.     | `ci/<name>`       | `source-1.20.1-forge/ci/github-actions`   |
+| Style Work: For formatting changes, lint, code standardization.   | `style/<name>`    | `source-1.20.1-forge/style/code-beauty`   |
 
 ### 🚩 Branch Maintenance Conventions
 
