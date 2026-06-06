@@ -113,7 +113,7 @@ For example: **`source-1.20.1-forge`**, **`source-linux-javafx`**, **`source-web
 
 ### 🚩 Branches That Always Will Be Merged, Creation Guidelines
 
-For Branches that will always be merged with another Branch, they should follow the naming pattern below. **Branches that do not follow this convention will be deleted!**
+For Branches that will always be Merged with another Branch, they should follow the naming pattern below. **Branches that do not follow this convention will be deleted!**
 
 | Branch Type            | Naming Pattern                               | Example                                     |
 | :--------------------- | :------------------------------------------- | :------------------------------------------ |
