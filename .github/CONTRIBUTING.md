@@ -1,4 +1,4 @@
-This page serves to guide you and give you guidelines on what to do and how to do it if you want to contribute to this repository.
+This page is designed to guide you and provide guidelines on what to do and how to do it if you wish to contribute to this repository.
 
 # Are you a Regular User or an End User?
 
