@@ -100,7 +100,7 @@ For **`📋 Maintainers+`**, there are a few other things...
 
 ### 🚩 General Branch Creation Guidelines
 
-  - For all Branches other than **main**, create a `README.md` at the root of the Branch, to redirect to Branch **main**. **You can skip this step if the Branch you are creating is a Branch that will be merged with another Branch later.**
+  - For all Branches other than **`main`**, create a `README.md` at the root of the Branch, to redirect to Branch **`main`**. **You can skip this step if the Branch you are creating is a Branch that will be merged with another Branch later.**
   - For all Branches (except **gh-pages**), make sure they have a folder called `.github` and that this folder contains the files `CONTRIBUTING.md` and `PULL_REQUEST_TEMPLATE.md`, as well as the **main** Branch. If you created your Branch from an existing one, it most likely already inherited those files.
 
 ### 🚩 Source Code Branches That Never Will Be Merged Creation Guidelines
