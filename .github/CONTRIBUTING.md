@@ -129,6 +129,17 @@ For Branches that will always be Merged with another Branch, they should follow 
 | CI/Build Work: For tweaks on pipelines, CI, or Build scripts.    | `ci/<name>`       | `source-1.20.1-forge/ci/github-actions`   |
 | Style Work: For formatting changes, lint, code standardization.  | `style/<name>`    | `source-1.20.1-forge/style/code-beauty`   |
 
+<table>
+  <tr>
+    <th style="width:150px">Coluna curta</th>
+    <th>Coluna longa</th>
+  </tr>
+  <tr>
+    <td>Texto</td>
+    <td>Texto mais longo que ocupa espaço</td>
+  </tr>
+</table>
+
 ### 🚩 Branch Maintenance Conventions
 
 - Keep the same `.gitignore` file in all Branches. This prevents one Branch from accidentally considering a file ignored by another Branch, which can cause a mess, and also helps maintain consistency across Branches, while working on Local Repository.
