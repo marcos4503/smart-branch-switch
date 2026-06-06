@@ -10,7 +10,7 @@ You can also `💖 Sponsor` this project to help keep it going!
 
 If you want to Contribute technically to this Repository, proposing Code Changes and things like that, this is the topic for you! Here you will see the guidelines for Contributions, how to make Contributions, etc.
 
-Just know that every Contribution is appreciated, even the smallest ones. This topic outlines a set of guidelines and best practices for Contributing. Following these guidelines helps us maintain a clean, organized, and high-performance Repository. Thank you for investing your time in Contributing to our project! ✨
+Just know that every Contribution is appreciated, even the smallest ones. This topic outlines a set of guidelines and best practices for Contributing. Following these guidelines helps us maintain a clean, organized, and high-performance Repository. Thank you for investing your time in Contributing to our project! ⭐
 
 ## 🌱 How to Contribute
 
