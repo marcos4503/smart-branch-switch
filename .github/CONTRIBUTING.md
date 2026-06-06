@@ -17,8 +17,8 @@ Technically, you can Contribute to this Repository in the following ways:
 - **Testing the Product from this Repository:** You can do this simply by using the Product from this Repository, and as you see fit, execute the next items on this list.
 - **Reporting Bugs:** This can be done through the `Issues` tab of this Repository.
 - **Suggesting Enhancements or giving your Feedback:** This can be done through the `Issues` tab of this Repository.
-- **Proposing Code Changes:** This can be done through `Pull Requests` (this will be discussed in more detail below). It's great if you want to get your hands dirty and work on the Source Code of this Repository, implementing new Features, Improvements, Optimizations, Fixes, and Refactorings yourself.
-- **Proposing Documentation/ReadMe Changes:** This can be done through `Pull Requests` (this will be discussed in more detail below). It's great if you've seen some incorrect information in the Documentation/ReadMe, or seen something that could be improved, or removed because it's outdated, and you want to get your hands dirty and do it yourself.
+- **Proposing Code Changes:** This can be done through `Pull Requests` (this will be discussed in more detail below). It's great if you want to get your hands-on and work on the Source Code of this Repository, implementing new Features, Improvements, Optimizations, Fixes, and Refactorings yourself.
+- **Proposing Documentation/ReadMe Changes:** This can be done through `Pull Requests` (this will be discussed in more detail below). It's great if you've seen some incorrect information in the Documentation/ReadMe, or seen something that could be improved, or removed because it's outdated, and you want to get your hands-on and do it yourself.
 
 ### Roles
 
@@ -31,7 +31,7 @@ Before we continue, it's helpful to differentiate between the different Reposito
 
 ### How do I send Pull Requests?
 
-So, you want to get your hands dirty and you want to implement new Features, Improvements, Optimizations, Fixes, Refactorings or updates on Documentation/ReadMe, yourself? Perfect! Here you'll find everything you need to know!
+So, you want to get your hands-on and you want to implement new Features, Improvements, Optimizations, Fixes, Refactorings or updates on Documentation/ReadMe, yourself? Perfect! Here you'll find everything you need to know!
 
 <details>
   <summary> It's important that you understand the basics of Branches before continuing. To learn more, expand this section!</summary>
