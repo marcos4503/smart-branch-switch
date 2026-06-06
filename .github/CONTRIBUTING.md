@@ -92,7 +92,7 @@ Currently, these are the guidelines you should follow, as a **`🤝 Contributor`
 - ⚠️ In Source Code, any logic that is complex should have clear Comments explaining it.
 - ⚠️ For changes in UI, UX, Source Code, General Text/HTML Files, Documentation or ReadMe, try to follow the same organizational and visual standards as the rest of the project.
 
-If you have questions or need help, feel free to open a `Issue` or contact the maintainers at trough the `Issues` tab!
+If you have questions or need help, feel free to open a `Issue` or contact the **`📋 Maintainers+`** at trough the `Issues` tab!
 
 ## 📋 For Maintainers+ Only
 
