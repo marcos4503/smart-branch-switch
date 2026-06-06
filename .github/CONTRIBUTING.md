@@ -43,7 +43,7 @@ So, you want to get your hands-on and implement new Features, Improvements, Opti
 Branches are where the Source Code of Repositories resides. On GitHub, you'll find Repositories with two types of Source Code organization, see below:
 
 - **Case 1, everything in the "main", "develop" or "master" Branch:** In this case, all the project's Source Code is in this Branch. The Source Code files may be located in the root of this Branch, or they may be contained within a Folder or different Folders, one Folder for each Source Code of each sub-project that makes up the entire project.
-- **Case 2, Source Code separated into Branches:** Depending on the project, the developer may want to separate the Source Code into Branches. Let's use a Minecraft mod as an example. The same mod can exist for Minecraft 1.12 and Minecraft 1.16, but they will be different Source Codes that will never be mixed/merged. Therefore, many developers create a Branch for each Source Code of each version.
+- **Case 2, Source Code separated into Branches:** Depending on the project, the dev/team may want to separate the Source Code into Branches. Let's use a Minecraft mod as an example. The same mod can exist for Minecraft 1.12 and Minecraft 1.16, but they will be different Source Codes that will never be mixed/merged. Therefore, many devs/teams create a Branch for each Source Code of each version.
  
 It's important to understand this separation of how Branches can be used to organize the project, because this organization will vary from Repository to Repository, and from Project to Project, but generally, these two cases, are the cases for 99% of Repositories.
  
