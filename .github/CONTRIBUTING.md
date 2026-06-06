@@ -118,16 +118,16 @@ For Branches that will always be Merged with another Branch, they should follow 
 | Branch Type                                                            |  Naming Pattern   |                  Example                  |
 | :--------------------------------------------------------------------- | :---------------: | :---------------------------------------: |
 | 🚀 **Release Work:** To prepare a production<br>version of the product. | `release/<name>`  |    `source-1.20.1-forge/release/2.0.0`    |
-| **Hotfix Work:** For urgent production fixes.                          |  `hotfix/<name>`  | `source-1.20.1-forge/hotfix/gameplay-bug` |
-| **Bug Fixes Work:** For bug fixes.                                     |   `fix/<name>`    |  `source-1.20.1-forge/fix/hud-alignment`  |
-| **Features Work:** For new features<br>or improvements.                | `feature/<name>`  |  `source-1.20.1-forge/feature/new-sound`  |
-| **Chore Work:** Maintenance tasks<br>that not affect product logic.    |  `chore/<name>`   |  `source-1.20.1-forge/chore/update-libs`  |
-| **Refactor Work:** To refactor code<br>without changing behavior.      | `refactor/<name>` | `source-1.20.1-forge/refactor/var-names`  |
-| **Test Work:** To create or adjust<br>automated tests.                 |   `test/<name>`   |  `source-1.20.1-forge/test/add-new-test`  |
-| **Docs Work:** For doc changes (Documentation,<br>ReadMe, Comments).   |   `docs/<name>`   |   `source-1.20.1-forge/docs/api-guide`    |
-| **Performance Work:** For performance<br>optimizations.                |   `perf/<name>`   | `source-1.20.1-forge/perf/cache-optimize` |
-| **CI/Build Work:** For tweaks on pipelines,<br>CI, or Build scripts.   |    `ci/<name>`    |  `source-1.20.1-forge/ci/github-actions`  |
-| **Style Work:** Formatting changes,<br>lint, code standardization.     |  `style/<name>`   |  `source-1.20.1-forge/style/code-beauty`  |
+| 🔥 **Hotfix Work:** For urgent production fixes.                        |  `hotfix/<name>`  | `source-1.20.1-forge/hotfix/gameplay-bug` |
+| 🐞 **Bug Fixes Work:** For bug fixes.                                   |   `fix/<name>`    |  `source-1.20.1-forge/fix/hud-alignment`  |
+| ✨ **Features Work:** For new features<br>or improvements.              | `feature/<name>`  |  `source-1.20.1-forge/feature/new-sound`  |
+| 🛠️ **Chore Work:** Maintenance task.<br>Don't affect product logic.     |  `chore/<name>`   |  `source-1.20.1-forge/chore/update-libs`  |
+| 📝 **Refactor Work:** To refactor code<br>without changing behavior.    | `refactor/<name>` | `source-1.20.1-forge/refactor/var-names`  |
+| 🧪 **Test Work:** To create or adjust<br>automated tests.               |   `test/<name>`   |  `source-1.20.1-forge/test/add-new-test`  |
+| 📖 **Docs Work:** For doc changes (Documentation,<br>ReadMe, Comments). |   `docs/<name>`   |   `source-1.20.1-forge/docs/api-guide`    |
+| ⚡ **Performance Work:** For performance<br>optimizations.              |   `perf/<name>`   | `source-1.20.1-forge/perf/cache-optimize` |
+| 🔄 **CI/Build Work:** For tweaks on pipelines,<br>CI, or Build scripts. |    `ci/<name>`    |  `source-1.20.1-forge/ci/github-actions`  |
+| 🎨 **Style Work:** Formatting changes,<br>lint, code standardization.   |  `style/<name>`   |  `source-1.20.1-forge/style/code-beauty`  |
 
 ### 🚩 Branch Maintenance Conventions
 
