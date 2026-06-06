@@ -82,7 +82,7 @@ Now that you have the basic context of Branches, understanding how to send Pull 
       - The Pull Request is automatically closed.
   - ☑️ **That's all!** When a Pull Request is closed, regardless of whether it was Accepted or Rejected, the working Branch you created in the Fork Repository (if you are a **Contributor**) or Original Repository (if you are a **Mantainer+**) remains. You can delete it or continue working on it to create another Pull Request later.
 
-Pull Requests are the heart of collaboration. They allow you to propose changes, discuss them openly, and improve the project together with the community. ❤️
+Pull Requests are the heart of collaboration. They allow you to propose changes, discuss them openly, and improve the project together with the Community. ❤️
 
 ### Code/Documentation/ReadMe Changes Submission Guidelines
 
