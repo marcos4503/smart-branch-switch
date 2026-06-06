@@ -2,11 +2,15 @@ This page is designed to guide you and provide guidelines on what to do and how 
 
 # ☕ Are you a Regular User of this Product?
 
-If you are a Regular User of this Repository's Product and are not interested in contributing technically, but need help, want to report a bug, ask a question, suggest a new feature, or something similar, go to the `Issues` tab of this Repository. After that, click on `New Issue` to create a topic for your request. You can also `💖 Sponsor` this project to help keep it going!
+If you are a Regular User of this Repository's Product and are not interested in Contributing technically, but need help, want to report a bug, ask a question, suggest a new feature, or something similar, go to the `Issues` tab of this Repository. After that, click on `New Issue` to create a topic for your request. You can also `💖 Sponsor` this project to help keep it going!
 
 # 🤝 Do you want to Contribute technically?
 
-If you want to Contribute technically to this Repository, proposing Code Changes and things like that, this is the topic for you! Here you will see the guidelines for Contributions, how to make Contributions, etc.
+If you want to Contribute technically to this Repository, proposing Code Changes and things like that, this is the topic for you! Here you will see the guidelines for Contributions, how to make Contributions, etc. Know that every Contribution is appreciated, even the smallest ones. Thank you for investing your time in Contributing to our project! ✨
+
+## How to Contribute
+
+
 
 
 
@@ -41,23 +45,11 @@ If you want to Contribute technically to this Repository, proposing Code Changes
 
 # Contributing to [Nome do Projeto]
 
-Thank you for investing your time in contributing to our project! ✨
+
 
 This document outlines a set of guidelines and best practices for contributing. Following these rules helps us maintain a clean, organized, and high-performance repository.
 
----
 
-## 🗺️ Table of Contents
-
-1. [Code of Conduct](#-code-of-conduct)
-2. [How Can I Contribute?](#-how-can-i-contribute)
-   - [Reporting Bugs](#reporting-bugs)
-   - [Suggesting Enhancements](#suggesting-enhancements)
-   - [Pull Requests](#pull-requests)
-3. [Branch Naming Conventions](#%EF%B8%8F-branch-naming-conventions)
-4. [Style Guides & Commit Messages](#-style-guides--commit-messages)
-
----
 
 ## 📜 Code of Conduct
 
