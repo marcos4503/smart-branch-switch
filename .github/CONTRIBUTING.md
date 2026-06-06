@@ -117,7 +117,7 @@ For Branches that will always be Merged with another Branch, they should follow 
 
 | Branch Type                                                          |  Naming Pattern   |                  Example                  |
 | :------------------------------------------------------------------- | :---------------: | :---------------------------------------: |
-| **Release Work:** To prepare a production<br>version of the product. | `release/<name>`  |    `source-1.20.1-forge/release/2.0.0`    |
+| 🚀 Release Work: To prepare a production<br>version of the product.   | `release/<name>`  |    `source-1.20.1-forge/release/2.0.0`    |
 | **Hotfix Work:** For urgent production fixes.                        |  `hotfix/<name>`  | `source-1.20.1-forge/hotfix/gameplay-bug` |
 | **Bug Fixes Work:** For bug fixes.                                   |   `fix/<name>`    |  `source-1.20.1-forge/fix/hud-alignment`  |
 | **Features Work:** For new features<br>or improvements.              | `feature/<name>`  |  `source-1.20.1-forge/feature/new-sound`  |
