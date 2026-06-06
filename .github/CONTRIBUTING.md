@@ -96,7 +96,7 @@ If you have questions or need help, feel free to open a `Issue` to contact **`�
 
 ## 📋 For Maintainers+ Only
 
-For **Maintainers+**, there are a few other things...
+For **`📋 Maintainers+`**, there are a few other things...
 
 ### 🚩 General Branch Creation Guidelines
 
