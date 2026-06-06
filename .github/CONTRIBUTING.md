@@ -90,7 +90,7 @@ Currently, these are the guidelines you should follow, as a `🤝 Contributor` t
 
 - ⚠️ Comments in Source Code or Text files should be in **English**.
 - ⚠️ In Source Code, any logic that is more complex should have clear Comments explaining it.
-- ⚠️ For UI, UX, Code, Text, HTML, Documentation or ReadMe changes, try to follow the same organizational and visual standards as the rest of the project.
+- ⚠️ For changes in UI, UX, Code, General Text/HTML Files, Documentation or ReadMe, try to follow the same organizational and visual standards as the rest of the project.
 
 ### Need Help?
 
