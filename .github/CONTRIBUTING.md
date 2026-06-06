@@ -38,21 +38,16 @@ So, you want to get your hands-on and implement new Features, Improvements, Opti
 <details>
   <summary> It's important that you understand the basics of Branches before continue. To learn more, expand this section!</summary>
 
----
-
-Branches are where the Source Code of Repositories resides. On GitHub, you'll find Repositories with two types of Source Code organization, see below:
-
-- **Case 1, everything in the "main", "develop" or "master" Branch:** In this case, all the project's Source Code is in this Branch. The Source Code files may be located in the root of this Branch, or they may be contained within a Folder.
-- **Case 2, Source Code separated into Branches:** Depending on the project, the developer may want to separate the Source Code into Branches. Let's use a Minecraft mod as an example. The same mod can exist for Minecraft 1.12 and Minecraft 1.16, but they will be different Source Codes that will never be mixed/merged. Therefore, many developers create a Branch for each Source Code of each version.
-
-It's important to understand this separation of how Branches can be used to organize the project, because this organization will vary from Repository to Repository, and from Project to Project, but generally, these two cases, are the cases for 99% of Repositories.
-
-When a developer starts working on a project, whether to add a feature, fix a bug, etc. They will create a new Branch, which we'll call the "Example Branch". This Branch will always have a Source Branch, which is the Branch where the developer wants to apply the Code Changes. After the "Example Branch" is created, it will inherit a copy of all the files from the Source Branch. The developer will work on the "Example Branch", and when finished, they will Merge this "Example Branch" back into their Source Branch (through a Pull Request, for example). After that, the Source Branch will receive all the Changes. Once this is done, the developer can delete the "Example Branch" if they want, as it has already fulfilled its purpose.
-
-Now that you have the basic context of Branches, understanding how to send Pull Requests becomes easy!
-
----
-
+> Branches are where the Source Code of Repositories resides. On GitHub, you'll find Repositories with two types of Source Code organization, see below:
+> 
+> - **Case 1, everything in the "main", "develop" or "master" Branch:** In this case, all the project's Source Code is in this Branch. The Source Code files may be located in the root of this Branch, or they may be contained within a Folder.
+> - **Case 2, Source Code separated into Branches:** Depending on the project, the developer may want to separate the Source Code into Branches. Let's use a Minecraft mod as an example. The same mod can exist for Minecraft 1.12 and Minecraft 1.16, but they will be different Source Codes that will never be mixed/merged. Therefore, many developers create a Branch for each Source Code of each version.
+> 
+> It's important to understand this separation of how Branches can be used to organize the project, because this organization will vary from Repository to Repository, and from Project to Project, but generally, these two cases, are the cases for 99% of Repositories.
+> 
+> When a developer starts working on a project, whether to add a feature, fix a bug, etc. They will create a new Branch, which we'll call the "Example Branch". This Branch will always have a Source Branch, which is the Branch where the developer wants to apply the Code Changes. After the "Example Branch" is created, it will inherit a copy of all the files from the Source Branch. The developer will work on the "Example Branch", and when finished, they will Merge this "Example Branch" back into their Source Branch (through a Pull Request, for example). After that, the Source Branch will receive all the Changes. Once this is done, the developer can delete the "Example Branch" if they want, as it has already fulfilled its purpose.
+> 
+> Now that you have the basic context of Branches, understanding how to send Pull Requests becomes easy!
 </details>
 
 👉 To submit a Pull Request with your Code Changes or Documentation/ReadMe Changes, simply follow these steps:
