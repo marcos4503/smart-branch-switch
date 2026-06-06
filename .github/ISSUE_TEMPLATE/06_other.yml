@@ -1,0 +1,29 @@
+name: "🗃️ Other"
+description: "None of the above options match what you're looking for? Choose this one!"
+title: "[OTHER] - "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > Don't delete the Tag. Try creating a descriptive title, but not an excessively long one.
+
+        ### 🎉 It's a pleasure to have you here!
+        If none of the previous Issue options meet your needs, this is the perfect place for you. Describe your request in detail! :)
+
+  - type: textarea
+    id: request_details
+    attributes:
+      label: "Request Details"
+      description: "Describe your request in detail."
+      placeholder: "I'm having a issue..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Checks"
+      options:
+        - label: "I have checked the existing Issues. My request is not answered there."
+          required: true
