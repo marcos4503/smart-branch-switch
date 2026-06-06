@@ -36,7 +36,9 @@ Before we continue, it's helpful to differentiate between the different Reposito
 So, you want to get your hands-on and implement new Features, Improvements, Optimizations, Fixes, Refactorings or updates on Documentation/ReadMe, yourself? Perfect! Here you'll find everything you need to know!
 
 <details>
-  <summary> It's important that you understand the basics of Branches before continuing. To learn more, expand this section!</summary>
+  <summary> It's important that you understand the basics of Branches before continue. To learn more, expand this section!</summary>
+
+---
 
 Branches are where the Source Code of Repositories resides. On GitHub, you'll find Repositories with two types of Source Code organization, see below:
 
@@ -48,6 +50,9 @@ It's important to understand this separation of how Branches can be used to orga
 When a developer starts working on a project, whether to add a feature, fix a bug, etc. They will create a new Branch, which we'll call the "Example Branch". This Branch will always have a Source Branch, which is the Branch where the developer wants to apply the Code Changes. After the "Example Branch" is created, it will inherit a copy of all the files from the Source Branch. The developer will work on the "Example Branch", and when finished, they will Merge this "Example Branch" back into their Source Branch (through a Pull Request, for example). After that, the Source Branch will receive all the Changes. Once this is done, the developer can delete the "Example Branch" if they want, as it has already fulfilled its purpose.
 
 Now that you have the basic context of Branches, understanding how to send Pull Requests becomes easy!
+
+---
+
 </details>
 
 👉 To submit a Pull Request with your Code Changes or Documentation/ReadMe Changes, simply follow these steps:
