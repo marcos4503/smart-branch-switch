@@ -126,7 +126,7 @@ For Branches that will always be Merged with another Branch, they should follow 
 | 🧪 **Test Work:** To create or adjust<br>automated tests.               |   `test/<name>`   |  `source-1.20.1-forge/test/add-new-test`  |
 | 📖 **Docs Work:** For doc changes<br>(Documentation, ReadMe, Comments). |   `docs/<name>`   |   `source-1.20.1-forge/docs/api-guide`    |
 | ⚡ **Performance Work:** For performance<br>optimizations.              |   `perf/<name>`   | `source-1.20.1-forge/perf/cache-optimize` |
-| 🔄 **CI/Build Work:** For tweaks on pipelines,<br>CI, or Build scripts. |    `ci/<name>`    |  `source-1.20.1-forge/ci/github-actions`  |
+| 🔄 **CI/Build Work:** For tweaks on pipelines, CI,<br>or Build scripts. |    `ci/<name>`    |  `source-1.20.1-forge/ci/github-actions`  |
 | 🎨 **Style Work:** Formatting changes,<br>lint, code standardization.   |  `style/<name>`   |  `source-1.20.1-forge/style/code-beauty`  |
 
 ### 🚩 Branch Maintenance Conventions
