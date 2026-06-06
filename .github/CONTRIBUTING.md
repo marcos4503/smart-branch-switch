@@ -65,7 +65,7 @@ Now that you have the basic context of Branches, understanding how to send Pull 
 - **If you are a `📋 Mantainer+`**
   - ☑️ It all starts with you discussing with other **Maintainers+**, about what you intend to change. Just like a **Contributor** would, but you likely have other communication channels with other **Maintainers+** besides the `Issues` tab. If you get the green light, proceed.
   - ☑️ Just clone this Repository to your PC, because you already have write permissions.
-  - ☑️ On the Repository cloned on your PC, create a new Branch to start working on what you want to implement. Remember to select the Source Branch that contains the Source Code that you want to modify, but, **remember to follow the Branch creation guidelines** when creating a Branch. They are located below!
+  - ☑️ On the Repository cloned on your PC, create a new Branch to start working on what you want to implement. Remember to select the Source Branch that contains the Source Code that you want to modify, but, **remember to follow the Branch creation guidelines** when creating a Branch. [They are located below!](#for-mantainers+-only)
   - ☑️ Within this new Branch you created, work on the modifications you want to implement in this project!
 - **Continuing, for `🤝 Contributor` or `📋 Maintainer+`...**
   - ☑️ Once your work is finished on your PC, Commit it, followed by a Push to send your work to the Remote Repository. If you are a **Contributor** your work will be sent to your Fork in your GitHub Account. If you are a **Maintainer+**, your work will be sent to the Original Repository.
