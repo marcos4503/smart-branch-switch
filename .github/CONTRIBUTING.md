@@ -115,10 +115,10 @@ For example: **`source-1.20.1-forge`**, **`source-linux-javafx`**, **`source-web
 
 For Branches that will always be Merged with another Branch, they should follow the naming pattern below. **Branches that do not follow this convention will be deleted!**
 
-| Branch Type            | Naming Pattern                               | Example                                     |
-| :--------------------- | :------------------------------------------- | :------------------------------------------ |
-| **For Bug Fixes Work** | `<source-branch-name>/fix-<description>`     | `source-1.20.1-forge/fix-hud-alignment`     |
-| **For Features Work**  | `<source-branch-name>/feature-<description>` | `source-1.20.1-forge/feature-sound-effects` |
+| Branch Type            | Naming Pattern                               | Example                                    |
+| :--------------------- | :------------------------------------------- | :----------------------------------------- |
+| **For Bug Fixes Work** | `<source-branch-name>/fix-<description>`     | `source-1.20.1-forge/fix-hud-alignment`    |
+| **For Features Work**  | `<source-branch-name>/feature-<description>` | `source-1.20.1-forge/feature-new-sound-fx` |
 
 ### 🚩 Branch Maintenance Conventions
 
