@@ -39,3 +39,7 @@ As you saw earlier, above, SBS performs several functions whenever it runs. The 
 - And that's it!
 
 Now take a closer look at all the functions of the Smart Branch Switch.
+
+### 🧹 Management of Ignored Files
+
+a
