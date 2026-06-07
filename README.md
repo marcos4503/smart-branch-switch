@@ -12,4 +12,6 @@
 </p>
 <hr>
 
-# About this Mod
+# 🔀 What is the Smart Branch Switch?
+
+Smart Branch Switch (or "SBS") is a tool whose main purpose is to help you work in an organized and clean way, while switching between active Branches (a.k.a. Branch Checkout) in your Git Local Repository, on your PC.
