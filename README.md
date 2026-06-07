@@ -27,3 +27,15 @@ The Smart Branch Switch can help you with these and other things in a non-destru
 Every Git Repository has a hidden folder called `.git` located in the Repository's root directory. If you decide to use SBS, it will be installed inside the `.git` folder of your Local Repository. What happens next is simple: whenever a Git binary interacts with your Local Repository to switch the active Branch, it will look for `Hooks` to execute automatically, once the Branch switch is complete. It will then find SBS and call it automatically. The SBS will run and will fulfill its functions. This applies to any Git binary that interacts with your Local Repository, whether it's Git Bash, your IDE's Git, GitHub Desktop, etc.
 
 The SBS focuses only on the scope of your Git Local Repository. It only runs on your PC, within the scope of your Local Repository, and of course, only if you choose to install it in your Local Repository. Furthermore, when you install it, Git doesn't track it files, which means that when you `Commit` and `Push`, on your Local Repository, nothing from the Smart Branch Switch goes to the Remote Repository. Therefore, if you work in a Repository with other people, and only you decide to use SBS on your PC, no problem! **No one but you will be affected by this.**
+
+# ✨ Features
+
+As you saw earlier, above, SBS performs several functions whenever it runs. The flow is basically this:
+
+- Git switch the active Branch on your Local Repository.
+- When finish, Git calls the SBS to run and pauses himself. **At this point, Git has already finished everything it usually does.**
+- The SBS runs all its functions.
+- The SBS returns control to Git, and this only serves to Git send alert to IDEs, GitHub Desktop and others, that the active Branch switching task has 100% finished.
+- And that's it!
+
+Now take a closer look at all the functions of the Smart Branch Switch.
