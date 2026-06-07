@@ -1,0 +1,2 @@
+### You are viewing the content of a different Branch of this Repository.
+Click <a href="https://github.com/marcos4503/smart-branch-switch">here</a> to go to the `main` Branch of this Repository. There you can find more information, instructions, and other useful details about this Repository.
