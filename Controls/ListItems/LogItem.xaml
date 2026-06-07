@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="Smart_Branch_Switch.Controls.ListItems.LogItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Smart_Branch_Switch.Controls.ListItems"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="16"/>
+                <ColumnDefinition Width="8"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Image x:Name="regular" Height="16" Width="16" VerticalAlignment="Top" HorizontalAlignment="Center" Source="/Resources/notify-regular.png" Margin="0,3,0,0"/>
+            <Image x:Name="warning" Height="16" Width="16" VerticalAlignment="Top" HorizontalAlignment="Center" Source="/Resources/notify-warning.png" Margin="0,3,0,0"/>
+            <Image x:Name="critical" Height="16" Width="16" VerticalAlignment="Top" HorizontalAlignment="Center" Source="/Resources/notify-critical.png" Margin="0,3,0,0"/>
+            <TextBlock x:Name="message" TextWrapping="Wrap" Text="Place Holder Place Holder Place Holder Place Holder Place Holder Place Holder Place Holder Place Holder Place Holder Place Holder Place Holder Place Holder Place Holder Place Holder Place Holder Place Holder Place Holder Place Holder Place Holder Place Holder." Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="#FF313131"/>
+        </Grid>
+
+    </Grid>
+</UserControl>

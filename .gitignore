@@ -1,0 +1,13 @@
+# Ignores for WPF Source Code
+bin/
+obj/
+# Ignores for Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+# Ignores for Nuget
+*.nupkg
+packages/
+*.snupkg

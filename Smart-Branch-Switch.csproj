@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Smart_Branch_Switch</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\main-icon-32px.ico</ApplicationIcon>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+	<!-- Enforced Properties for Single File compilation -->
+	<SelfContained>true</SelfContained>
+	<PublishSingleFile>true</PublishSingleFile>
+	<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\main-icon-32px.png" />
+    <None Remove="Resources\notify-critical.png" />
+    <None Remove="Resources\notify-regular.png" />
+    <None Remove="Resources\notify-warning.png" />
+    <None Remove="Resources\window-icon-32px.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\main-icon-32px.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoroutinesForWpf" Version="0.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\main-icon-32px.png" />
+    <Resource Include="Resources\notify-critical.png" />
+    <Resource Include="Resources\notify-regular.png" />
+    <Resource Include="Resources\notify-warning.png" />
+    <Resource Include="Resources\window-icon-32px.png" />
+  </ItemGroup>
+
+</Project>
