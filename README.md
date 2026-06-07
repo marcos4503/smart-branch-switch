@@ -1,7 +1,7 @@
 <p align="center" style="font-size: 2px;">
     <img src=".github/assets/cover.png" />
     <br>
-    To get the BAT/SH Script that Installs or Uninstalls the Smart Branch Switch in your Git Local Repository, go to the <a href="https://github.com/marcos4503/smart-branch-switch/releases">Releases</a> page.
+    To get the BAT/SH Script that Installs/Uninstalls the Smart Branch Switch in your Git Local Repository, go to <a href="https://github.com/marcos4503/smart-branch-switch/releases">Releases</a> page.
 </p>
 <p align="center" style="font-size: 2px;">
     <b>Main Branches of the Project</b>
