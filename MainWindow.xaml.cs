@@ -1056,42 +1056,44 @@ namespace Smart_Branch_Switch
                 string contributingFilePath0 = Path.Combine(currentRepositoryRootPath, "CONTRIBUTING.md");
                 string contributingFilePath1 = Path.Combine(currentRepositoryRootPath, @".github\CONTRIBUTING.md");
                 string contributingFilePath2 = Path.Combine(currentRepositoryRootPath, @"docs\CONTRIBUTING.md");
-                if (File.Exists(contributingFilePath0) == false && File.Exists(contributingFilePath1) == false && File.Exists(contributingFilePath2) == false)
-                    if (File.Exists(Path.Combine(currentRepositoryRootPath, @".git\sbs\dontWarnOnContribute.flag")) == false)
-                    {
-                        //Show the warning message
-                        MessageBoxResult mbr = MessageBox.Show(("Can't find a valid \"CONTRIBUTING.md\" file on the current \"" + currentBranchName + "\" Branch. " +
-                                                                "You may want to create this file to keep the contribution instructions/rules for this Branch, very clear.\n\n" +
-                                                                "Click \"Cancel\" to avoid receiving this warning again for this repository."),
-                                                                ("Smart Branch Switch: Warning on \"" + currentRepositoryName + "\""),
-                                                                MessageBoxButton.OKCancel, MessageBoxImage.Warning);
-                        //If was desired to not receive warning abot this again, set a flag
-                        if (mbr == MessageBoxResult.Cancel)
-                            File.WriteAllText(Path.Combine(currentRepositoryRootPath, @".git\sbs\dontWarnOnContribute.flag"), "flag");
-                        //Send a notification
-                        runNotificationsList.Add(new RunNotification(RunNotificationTier.Regular, "The file \"CONTRIBUTING.md\" was not found in \"" + currentBranchName + "\" Branch."));
-                    }
+                if (currentBranchName != "gh-pages")
+                    if (File.Exists(contributingFilePath0) == false && File.Exists(contributingFilePath1) == false && File.Exists(contributingFilePath2) == false)
+                        if (File.Exists(Path.Combine(currentRepositoryRootPath, @".git\sbs\dontWarnOnContribute.flag")) == false)
+                        {
+                            //Show the warning message
+                            MessageBoxResult mbr = MessageBox.Show(("Can't find a valid \"CONTRIBUTING.md\" file on the current \"" + currentBranchName + "\" Branch. " +
+                                                                    "You may want to create this file to keep the contribution instructions/rules for this Branch, very clear.\n\n" +
+                                                                    "Click \"Cancel\" to avoid receiving this warning again for this repository."),
+                                                                    ("Smart Branch Switch: Warning on \"" + currentRepositoryName + "\""),
+                                                                    MessageBoxButton.OKCancel, MessageBoxImage.Warning);
+                            //If was desired to not receive warning abot this again, set a flag
+                            if (mbr == MessageBoxResult.Cancel)
+                                File.WriteAllText(Path.Combine(currentRepositoryRootPath, @".git\sbs\dontWarnOnContribute.flag"), "flag");
+                            //Send a notification
+                            runNotificationsList.Add(new RunNotification(RunNotificationTier.Regular, "The file \"CONTRIBUTING.md\" was not found in \"" + currentBranchName + "\" Branch."));
+                        }
 
                 //If not exists a valid "PULL_REQUEST_TEMPLATE" on the current Branch...
                 string prtFilePath0 = Path.Combine(currentRepositoryRootPath, "PULL_REQUEST_TEMPLATE.md");
                 string prtFilePath1 = Path.Combine(currentRepositoryRootPath, @".github\PULL_REQUEST_TEMPLATE.md");
                 string prtFilePath2 = Path.Combine(currentRepositoryRootPath, @"docs\PULL_REQUEST_TEMPLATE.md");
                 string prtDirPath0 = Path.Combine(currentRepositoryRootPath, @".github\PULL_REQUEST_TEMPLATE");
-                if (File.Exists(prtFilePath0) == false && File.Exists(prtFilePath1) == false && File.Exists(prtFilePath2) == false && Directory.Exists(prtDirPath0) == false)
-                    if (File.Exists(Path.Combine(currentRepositoryRootPath, @".git\sbs\dontWarnOnPullReqTemp.flag")) == false)
-                    {
-                        //Show the warning message
-                        MessageBoxResult mbr = MessageBox.Show(("Can't find a valid \"PULL_REQUEST_TEMPLATE\" file/directory on the current \"" + currentBranchName + "\" Branch. " +
-                                                                "You may want to create this file/directory to help, better guiding the Pull Request processes that this Branch may receive.\n\n" +
-                                                                "Click \"Cancel\" to avoid receiving this warning again for this repository."),
-                                                                ("Smart Branch Switch: Warning on \"" + currentRepositoryName + "\""),
-                                                                MessageBoxButton.OKCancel, MessageBoxImage.Warning);
-                        //If was desired to not receive warning abot this again, set a flag
-                        if (mbr == MessageBoxResult.Cancel)
-                            File.WriteAllText(Path.Combine(currentRepositoryRootPath, @".git\sbs\dontWarnOnPullReqTemp.flag"), "flag");
-                        //Send a notification
-                        runNotificationsList.Add(new RunNotification(RunNotificationTier.Regular, "The file/directory \"PULL_REQUEST_TEMPLATE\" was not found in \"" + currentBranchName + "\" Branch."));
-                    }
+                if (currentBranchName != "gh-pages")
+                    if (File.Exists(prtFilePath0) == false && File.Exists(prtFilePath1) == false && File.Exists(prtFilePath2) == false && Directory.Exists(prtDirPath0) == false)
+                        if (File.Exists(Path.Combine(currentRepositoryRootPath, @".git\sbs\dontWarnOnPullReqTemp.flag")) == false)
+                        {
+                            //Show the warning message
+                            MessageBoxResult mbr = MessageBox.Show(("Can't find a valid \"PULL_REQUEST_TEMPLATE\" file/directory on the current \"" + currentBranchName + "\" Branch. " +
+                                                                    "You may want to create this file/directory to help, better guiding the Pull Request processes that this Branch may receive.\n\n" +
+                                                                    "Click \"Cancel\" to avoid receiving this warning again for this repository."),
+                                                                    ("Smart Branch Switch: Warning on \"" + currentRepositoryName + "\""),
+                                                                    MessageBoxButton.OKCancel, MessageBoxImage.Warning);
+                            //If was desired to not receive warning abot this again, set a flag
+                            if (mbr == MessageBoxResult.Cancel)
+                                File.WriteAllText(Path.Combine(currentRepositoryRootPath, @".git\sbs\dontWarnOnPullReqTemp.flag"), "flag");
+                            //Send a notification
+                            runNotificationsList.Add(new RunNotification(RunNotificationTier.Regular, "The file/directory \"PULL_REQUEST_TEMPLATE\" was not found in \"" + currentBranchName + "\" Branch."));
+                        }
 
                 //If have errors when limbing the files, send a notification
                 if (errorLimbedFilesQty > 0)
