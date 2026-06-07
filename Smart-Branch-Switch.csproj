@@ -8,7 +8,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>Resources\main-icon-32px.ico</ApplicationIcon>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
 	<!-- Enforced Properties for Single File compilation -->
 	<SelfContained>true</SelfContained>
 	<PublishSingleFile>true</PublishSingleFile>

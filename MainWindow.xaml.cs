@@ -787,7 +787,7 @@ namespace Smart_Branch_Switch
                             //Try to load the content of ".gitignore" on root of this Branch...
                             string giFileLoadResult = RunGitCommandAndGetResponse(("--no-pager show " + entry.Key + ":\".gitignore\""));
                             //If was not successfully, stop here
-                            if (giFileLoadResult.Replace("\"", "'").Contains("fatal: path '.gitignore' does not exist in") == true)
+                            if (giFileLoadResult.Replace("\"", "'").Contains("fatal: path '.gitignore'") == true)
                             {
                                 //Add this empty to the existing branches info Dictionary
                                 existingBranchesGitIgnoreOnRoot.TryAdd(entry.Key, new HashSet<string>(StringComparer.OrdinalIgnoreCase));
@@ -1273,15 +1273,15 @@ namespace Smart_Branch_Switch
                 //Inform the response
                 toReturn = standardOutput;
 
-                //If have a error, stop the program
+                //If have a error, inform and stop the program
                 if (gitProcess.ExitCode != 0)
                 {
                     //Show the error
-                    SendLog("Git command error: " + standardError.Replace("\r", "").Replace("\n", " ").Trim());
+                    SendLog("Git command error: \"" + standardError.Replace("\r", "").Replace("\n", " ").Trim() + "\"");
                     //Warn in log
-                    SendLog("Stopping execution...");
+                    //SendLog("Stopping execution...");
                     //Throw a exception
-                    throw new Exception(("Error on running a command of Git. Exit Code: " + gitProcess.ExitCode + "."));
+                    //throw new Exception(("Error on running a command of Git. Exit Code: " + gitProcess.ExitCode + "."));
                 }
             }
 
