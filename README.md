@@ -68,7 +68,7 @@ After finishing handling the mapped files, SBS will look at the **error list** a
 > [!NOTE]
 > Note that all files within the `Old Branch` Limbo retain their original relative paths, maintaining the folder and file structure 100% identical to how it was in the `Old Branch`.
 
-After saving all the files ignored by the `Old Branch` to the `Old Branch` Limbo, it will delete all empty folders from your Local Repository. This ensures your Repository is clean after the files are saved to Limbo.
+After saving all the files ignored by the `Old Branch` to the `Old Branch` Limbo, it will delete all **empty folders** from your Local Repository. This ensures your Repository is clean after the files are saved to Limbo.
 
 As a final step, after saving files to Limbo and cleaning the Repository, SBS will then look at the Limbo of the `Current Branch` and retrieve all files from the Limbo of the `Current Branch` directly to the Local Repository. For each file existing in the `Current Branch` Limbo, SBS will execute the following flow:
 
