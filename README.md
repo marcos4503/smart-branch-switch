@@ -66,7 +66,7 @@ After finishing handling the mapped files, SBS will look at the **error list** a
   - **Skip Errors:** In this case, SBS will ignore all files that could not be Moved/Copied and will proceed. These files will remain in your `Current Branch` after the SBS execution is complete.
 
 > [!NOTE]
-> Note that all files within the Branch Limbo retain their original relative paths, maintaining the folder and file structure 100% identical to how it was in the `Old Branch`.
+> Note that all files within the `Old Branch` Limbo retain their original relative paths, maintaining the folder and file structure 100% identical to how it was in the `Old Branch`.
 
 After saving all the files ignored by the `Old Branch` to the `Old Branch` Limbo, it will delete all empty folders from your Local Repository. This ensures your Repository is clean after the files are saved to Limbo.
 
