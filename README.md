@@ -33,7 +33,7 @@ The SBS focuses only on the scope of your Git Local Repository. It only runs on 
 As you saw earlier, above, SBS performs several functions whenever it runs. The flow is basically this:
 
 - Git switch the active Branch on your Local Repository.
-- When finish, Git calls the SBS to run and pauses himself. **At this point, Git has already finished everything it usually does.**
+- When finish, Git calls the SBS to run and pauses himself. **At this point, Git has finished all it usually does.**
 - The SBS runs all its functions.
 - The SBS returns control to Git, and this only serves to Git send alert to IDEs, GitHub Desktop and others, that the active Branch switching task has 100% finished.
 - And that's it!
