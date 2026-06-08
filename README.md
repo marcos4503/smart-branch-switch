@@ -165,3 +165,11 @@ The procedure for installing the Smart Branch Switch in your Repository is quite
 
 > [!NOTE]
 > You don't need to keep the BAT/SH file in your Local Repository if you don't want to. Also, the name of the BAT/SH file doesn't matter. If you want to change the name, you can do so without any problems.
+
+# ⏱️ Tips for Better Performance
+
+If you want to ensure that the Smart Branch Switch runs at peak performance and without unexpected issues while you work on your Local Repository, follow the tips below!
+
+### 🔍 Disable Windows File Indexing
+
+Disable <a href="https://support.microsoft.com/en-us/windows/search-indexing-in-windows-da061c83-af6b-095c-0f7a-4dfecda4d15a">Windows File Indexing</a> for your Local Repository, or for the parent folder of your Local Repository. This helps Windows avoid indexing files it shouldn't in certain cases, improving overall performance.
