@@ -75,7 +75,7 @@ As a final step, after saving files to Limbo and cleaning the Repository, SBS wi
 - **If the Limbo file ALREADY exists in the Local Repository, in the active `Current Branch`:**
   - **Notify:** This is a conflict because the file that is in Limbo and about to be restored to the `Current Branch` already exists in the active `Current Branch`. In this case, SBS will attempt to resolve this conflict by presenting you with a Dialog Box asking you what to do. You will have these options:
     - **Overwrite:** Deletes the conflicting file in the `Current Branch` and retrieve the version that is in Limbo.
-    - **Ignore:** The conflicting file in the `Current Branch` remains untouched, and the Limbo version is still there.
+    - **Ignore:** The conflicting file in the `Current Branch` remains untouched. The Limbo version is still there.
     - **Overwrite All:** It does the same as **Overwrite**, but applies it to this and all subsequent occurrences.
     - **Ignore All:** It does the same as **Ignore**, but applies it to this and all subsequent occurrences.
 - **If the Limbo file does NOT exist in the Local Repository, in the active `Current Branch`:**
