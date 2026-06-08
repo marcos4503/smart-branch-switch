@@ -42,4 +42,44 @@ Now take a closer look at all the functions of the Smart Branch Switch.
 
 ### 🧹 Management of Ignored Files
 
-a
+The SBS introduces a concept of "Branch Limbo". This means that SBS creates and manages a Limbo for each Branch that your Local Repository has. The SBS engine will automatically delete Limbos belonging to Branches that no Longer exist, and will create Limbos for Branches that do not yet have a Limbo. The Limbo stores ignored files from each Branch in an isolated and secure way, keeping your Local Repository always organized and containing only the files that REALLY belong to the currently active Branch. No more junk files and files ignored by other Branches, polluting and disorganizing your Local Repository and your current Branch!
+
+The Limbo are located inside the `sbs` folder, which is inside the `.git` folder of your Local Repository. **It's not recommended, and you don't even need to worry about inspecting the `sbs` folder**, as everything inside is automatically managed by the Smart Branch Switch. It keeps the `sbs` folder always free of junk and organized.
+
+Now that you understand this concept, let's look at how the feature of `🧹 Management of Ignored Files` works. When this feature starts running, SBS will collect some context information from Git. This will allow it to know which Branch you left (a.k.a. `Old Branch`), which Branch you are now on (a.k.a. `Current Branch`), and other minor details.
+
+After SBS collects this information, it will look at the `Old Branch` and retrieve the contents of all the `.gitignore` files that the `Old Branch` contains. This is important because all files ignored by the `Old Branch` remain in your Local Repository, even after switching to the `Current Branch`. Once SBS has the contents of the `.gitignore` files from the `Old Branch`, it will look at all the files currently existing in the Root of your Local Repository and compare them with the `.gitignore` files collected from the `Old Branch`. Now, the SBS knows which files was "leaked" from the `Old Branch` and need to be managed.
+
+After mapping all the files in the Root of your Local Repository that need to be managed, it will separate these files into two lists, being `files that are ignored by the Old Branch but are NOT tracked by the Current Branch` and `files that are ignored by the Old Branch but ARE tracked by the Current Branch`. After performing this separation, it will begin processing each mapped file, following this flow:
+
+- Try to **Copy** or **Move** the file to the `Old Branch` Limbo:
+  - If the file is tracked by the `Current branch`, it will be **COPIED**.
+  - If the file is NOT tracked by `Current Branch`, it will me **MOVED**.
+- If the Copy/Move fails, it most likely means that the file is being used by some Process. If this is the case, SBS places that file in an **error list** and continues to the next file.
+
+After finishing handling the mapped files, SBS will look at the **error list** and, if there are any files there, it will begin the Error Resolution. The Error resolution consists of:
+
+- SBS will notify you via a Dialog Box that there are still a number of files that have not been Moved/Copied to the `Old Branch` Limbo and it will recommend that you close Processes that may be using those files. You will have these options:
+  - Solve Errors: In this case, SBS will attempt to Copy/Move all these files again. If any of them fail again, it will display the same Dialog Box again, but with an updated count of remaining error files.
+  - Skip Errors: In this case, SBS will ignore all files that could not be Moved/Copied and will proceed. These files will remain in your `Current Branch` after the SBS execution is complete.
+
+> [!NOTE]
+> Note that all files within the Branch Limbo retain their original relative paths, maintaining the folder and file structure 100% identical to how it was in the `Old Branch`.
+
+After saving all the files ignored by the `Old Branch` to the `Old Branch` Limbo, it will delete all empty folders from your Local Repository. This ensures your Repository is clean after the files are saved to Limbo.
+
+As a final step, after saving files to Limbo and cleaning the Repository, SBS will then look at the Limbo of the `Current Branch` and retrieve all files from the Limbo of the `Current Branch` directly to the Local Repository. For each file existing in the `Current Branch` Limbo, SBS will execute the following flow:
+
+- If the Limbo file ALREADY exists in the Local Repository, in the active `Current Branch`:
+  - This is a conflict because the file that is in Limbo and about to be restored to the `Current Branch` already exists in the active `Current Branch`. In this case, SBS will attempt to resolve this conflict by presenting you with a Dialog Box asking you what to do. You will have these options:
+    - Overwrite: Deletes the conflicting file in the `Current Branch` and retrieve the version that is in Limbo.
+    - Ignore: The conflicting file in the `Current Branch` remains untouched, and the Limbo version is still there.
+    - Overwrite All: It does the same as **Overwrite**, but applies it to this and all subsequent occurrences.
+    - Ignore All: It does the same as **Ignore**, but applies it to this and all subsequent occurrences.
+- If the Limbo file does NOT exist in the Local Repository, in the active `Current Branch`:
+  - The Limbo file is Moved to the `Current Branch`.
+
+After that, any remaining files in the `Current Branch` Limbo are deleted, and this Limbo is emptied, being ready to save the files ignored by the `Current Branch` when you switch to another Branch!
+
+> [!NOTE]
+> Note that in this recovery of files from the `Current Branch` Limbo, the folder and file structure is kept identical to how it was saved when the `Current Branch` Limbo was previously populated.
