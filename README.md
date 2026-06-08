@@ -147,6 +147,10 @@ If it doesn't, it will notify you with a Dialog Box. This Dialog Box offers you 
 
 **Why is this useful?** It's useful to ensure that all Branches contain a Pull Request Template. This definitely helps with the organization and standardization of the project and Repository. It's also good because GitHub will always use the template corresponding to the Branch that the Contributor wants to modify.
 
-# 📥 Using Smart Branch Switch on your Local Repository
+# 📥 Using Smart Branch Switch on Your Local Repository
 
-a
+The procedure for installing the Smart Branch Switch in your Repository is quite simple. The SBS has a BAT or SH script (depending on the OS you intend to use) to install SBS in your Local Repository.
+
+### On Windows
+
+s
