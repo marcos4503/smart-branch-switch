@@ -154,7 +154,7 @@ The procedure for installing the Smart Branch Switch in your Repository is quite
 ### 🪟 On Windows
 
 - Access the <a href="https://github.com/marcos4503/smart-branch-switch/releases">Releases</a> page of this Repository and look for the latest Release. In the Assets of that Release, download the file with the `.bat` extension.
-- Go to your Local Repository and switch to the `main` Branch, or the Branch set as the Main Branch, in your Repository.
+- Go to your Local Repository and switch to `main` Branch, or the Branch set as the Main Branch, in your Repository.
 - Copy the `.bat` file you downloaded to the Root of your Local Repository. If it has a name like `default.SMART-BRANCH-SWITCH.bat`, you can delete the `default` prefix if you want.
 - Now, run the `.bat` file that you copied to your Local Repository. The script will detect that the Smart Branch Switch is not installed on your Local Repository and will proceed to the installation. You then just need to confirm that you want to install Smart Branch Switch and follow the installation flow.
 - After installation, you should see a success message. The next time you open the `.bat` file, it will give you options such as Install, Update, Uninstall, View Logs, and other useful functions for managing the Smart Branch Switch in your Local Repository.
