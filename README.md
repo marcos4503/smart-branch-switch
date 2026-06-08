@@ -182,7 +182,7 @@ There are antivirus programs (mainly Windows Defender) known for monitoring file
 
 Would you like to Contribute to this project? Know that any contribution, even the smallest, is **very welcome** and appreciated! For a guide on how to Contribute, see the `👥 Contributing` tab in this Repository.
 
-<hr>
+# 
 <p align="center">
   Created with ❤️ by <a href="https://github.com/marcos4503">Marcos Tomaz</a>
 </p>
