@@ -48,7 +48,7 @@ The Limbos stores ignored files from each Branch in an isolated and secure way, 
 
 The Limbos are located inside the `sbs` folder, which is inside the `.git` folder of your Local Repository. **It's not recommended, and you don't even need to worry about inspecting the `sbs` folder**, as everything inside is automatically managed by the Smart Branch Switch. It keeps the `sbs` folder always free of junk and organized.
 
-Now that you understand this concept, let's look at how the feature of `🧹 Management of Ignored Files` works. When this feature starts running, SBS will collect some context information from Git. This will allow it to know which Branch you left (a.k.a. `Old Branch`), which Branch you are now on (a.k.a. `Current Branch`), and other minor details.
+Now that you understand this concept, let's look at how the feature of `🧹 Management of Ignored Files` works. When this feature starts running, SBS will collect some context information from Git. This will allow it to know which Branch you left (a.k.a. **`Old Branch`**), which Branch you are now on (a.k.a. **`Current Branch`**), and other minor details.
 
 After SBS collects this information, it will look at the `Old Branch` and retrieve the contents of all the `.gitignore` files that the `Old Branch` contains. This is important because all files ignored by the `Old Branch` remain in your Local Repository, even after switching to the `Current Branch`. Once SBS has the contents of the `.gitignore` files from the `Old Branch`, it will look at all the files currently existing in the Root of your Local Repository and compare them with the `.gitignore` files collected from the `Old Branch`. Now, the SBS knows which files was "leaked" from the `Old Branch` and need to be managed.
 
