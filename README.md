@@ -112,7 +112,7 @@ The Smart Branch Switch will compare the Branches in your Local Repository with 
 
 ### 🛜 Detection of Branches Existing Only on Remote Repository
 
-The Smart Branch Switch will compare the Branches in your Local Repository with the Branches in your Remote Repository. If any Branch exists only in your **Remote Repository**, it will notify you with a low-priority notification that will remain in a corner of the screen for a few seconds.
+The Smart Branch Switch will compare the Branches in your Local Repository with the Branches in your Remote Repository. If any Branch exists **only in your Remote Repository**, it will notify you with a low-priority notification that will remain in a corner of the screen for a few seconds.
 
 **Why is this useful?** This is useful for knowing if any Branch that exists in the Remote Repository has not yet been loaded to your Local Repository. If you don't want to load the Branch to your Local Repository, this feature is still useful for knowing when a Branch was created or ceased to exist in the Remote Repository. It can also be useful to remind you if you delete a Branch in the Local Repository but forget to delete it in the Remote Repository.
 
