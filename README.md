@@ -180,7 +180,7 @@ There are antivirus programs (mainly Windows Defender) known for monitoring file
 
 # 🤝 Contributions
 
-Would you like to Contribute to this project? Know that any contribution, even the smallest, is **very welcome** and appreciated! For a guide on how to Contribute, see the `👥 Contributing` tab in this Repository.
+Would you like to Contribute to this Project? Know that any contribution, even the smallest, is **very welcome** and appreciated! For a guide on how to Contribute, see the `👥 Contributing` tab in this Repository.
 
 # 
 <p align="center">
