@@ -161,7 +161,7 @@ The procedure for installing the Smart Branch Switch in your Repository is quite
 
 ### 🐧 On Linux
 
-> The Smart Branch Switch does not yet have a Linux version.
+- The Smart Branch Switch does not yet have a Linux version.
 
 > [!NOTE]
 > You don't need to keep the BAT/SH file in your Local Repository if you don't want to. Also, the name of the BAT/SH file doesn't matter. If you want to change the name, you can do so without any problems.
