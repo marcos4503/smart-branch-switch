@@ -173,3 +173,7 @@ If you want to ensure that the Smart Branch Switch runs at peak performance and 
 ### 🔍 Disable Windows File Indexing
 
 Disable <a href="https://support.microsoft.com/en-us/windows/search-indexing-in-windows-da061c83-af6b-095c-0f7a-4dfecda4d15a">Windows File Indexing</a> for your Local Repository, or for the parent folder of your Local Repository. This helps Windows avoid indexing files it shouldn't in certain cases, improving overall performance.
+
+### 🛡️ Disable Antivirus Scan (Optional)
+
+There are antivirus programs (mainly Windows Defender) known for monitoring file movement on your PC. This undoubtedly affects Git Local Repositories and can significantly impact Smart Branch Switch, as it does this quite often, depending on the project type. To resolve this, you can configure your antivirus to disable automatic checks or scans on your Local Repository or its parent folder.
