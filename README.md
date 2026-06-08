@@ -85,3 +85,64 @@ After that, any remaining files in the `Current Branch` Limbo are deleted, and t
 
 > [!NOTE]
 > Note that in this recovery of files from the `Current Branch` Limbo, the folder and file structure is kept identical to how it was saved when the `Current Branch` Limbo was previously populated.
+
+### 🚫 Detection of Different `.gitignore` Files Through Branches
+
+The SBS will look at the Root of all Branches and check if there are `.gitignore` files present there, and will verify if all `.gitignore` files in the Root of all Branches have the same rules.
+
+If all `.gitignore` files in the Root of all Branches are not identical, SBS will present you with a warning Dialog Box. This Dialog Box contains an option to disable it and **prevent it from appearing again** in the future for this Repository.
+
+**Why is this important?** These files are essential for Git to know what it should or shouldn't Tracked/Commited, preventing your Repository from being bloated with unnecessary files. Furthermore, these files are the cornerstone used by Smart Branch Switch to determine what should be saved to Limbo, or not, after an Branch switch.
+
+Also, although Smart Branch Switch can handle different `.gitignore` files in each Branch (as seen in the last sub-topic), still efficiently cleaning up ignored files, having identical `.gitignore` files in the Root of all Branches ensures the most predictable operation of SBS, keeping your Local Repository organized according to the Branch you are currently on.
+
+**Furthermore**, ensuring identical `.gitignore` files in the Roots of all Branches, guarantees that other people who clone your Repository on their PCs, and prefer not to use Smart Branch Switch, will not suffer from a mess of ignored files when switching Branches. In addition, it improves the functionality and predictability of Git itself, avoiding unexpected behaviors.
+
+### ⚠️ Detection of Existence of Untracked Files After SBS Run
+
+Right after the Smart Branch Switch has finished its execution and done everything it needs to do, it will check if there are any Untracked files (not to be confused with Ignored files) in the currently active Branch in your Repository. If such files exist, it will notify you via a low-priority warning that will appear in a corner of the screen for a few seconds.
+
+**Why is this useful?** If SBS was run, it means you just switched Branches. If there are Untracked files in your Repository, it means that some file came from the last Branch or SBS failed to save some file to the Limbo of the last Branch. It's good to know this.
+
+### 💻 Detection of Branches Existing Only on Local Repository
+
+The Smart Branch Switch will compare the Branches in your Local Repository with the Branches in your Remote Repository. If any Branch exists **only in your Local Repository**, it will notify you with a low-priority notification that will remain in a corner of the screen for a few seconds.
+
+**Why is this useful?** This is useful for knowing if any Branch in your Local Repository has already been deleted from the Remote Repository. This means you can delete your local Branch as well. It's also useful for knowing if you forgot to publish a Branch you created in your Local Repository.
+
+### 🛜 Detection of Branches Existing Only on Remote Repository
+
+The Smart Branch Switch will compare the Branches in your Local Repository with the Branches in your Remote Repository. If any Branch exists only in your **Remote Repository**, it will notify you with a low-priority notification that will remain in a corner of the screen for a few seconds.
+
+**Why is this useful?** This is useful for knowing if any Branch that exists in the Remote Repository has not yet been loaded to your Local Repository. If you don't want to load the Branch to your Local Repository, this feature is still useful for knowing when a Branch was created or ceased to exist in the Remote Repository. It can also be useful to remind you if you delete a Branch in the Local Repository but forget to delete it in the Remote Repository.
+
+### 🪧 Detection of `README.md` File
+
+After completing the Branch switch, SBS will check if the current Branch contains a `README.md` file on the Root. If it doesn't, it will notify you with a Dialog Box. This Dialog Box offers you the option to disable it, so it no longer appears in the Repository.
+
+**Why is this useful?** This can be useful for maintaining consistency in Documentation/ReadMe across Branches. Additionally, it ensures that each Branch contains a ReadMe file, which can be helpful for people navigating between Branches in your Repository using the GitHub Website.
+
+### 🤝 Detection of `CONTRIBUTING.md` File
+
+After completing the Branch switch, SBS will check if the current Branch contains a `CONTRIBUTING.md` file. The SBS checks the following paths in your Local Repository:
+
+- /CONTRIBUTING.md
+- /.github/CONTRIBUTING.md
+- /docs/CONTRIBUTING.md
+
+If it doesn't, it will notify you with a Dialog Box. This Dialog Box offers you the option to disable it, so it no longer appears in the Repository. Additionally, this feature does not work for Branches named as `gh-pages`.
+
+**Why is this useful?** It's useful to ensure that all Branches contain the Contribution guide, policies, and guidelines. This is good because GitHub will always offer the Contributor access and read this file in the Branch they want to modify.
+
+### 📤 Detection of `PULL_REQUEST_TEMPLATE` File/Directory
+
+After completing the Branch switch, SBS will check if the current Branch contains a `PULL_REQUEST_TEMPLATE` file/directory. The SBS checks the following paths in your Local Repository:
+
+- /PULL_REQUEST_TEMPLATE.md
+- /.github/PULL_REQUEST_TEMPLATE.md
+- /docs/PULL_REQUEST_TEMPLATE.md
+- /.github/PULL_REQUEST_TEMPLATE/
+
+If it doesn't, it will notify you with a Dialog Box. This Dialog Box offers you the option to disable it, so it no longer appears in the Repository. Additionally, this feature does not work for Branches named as `gh-pages`.
+
+**Why is this useful?** It's useful to ensure that all Branches contain a Pull Request Template. This definitely helps with the organization and standardization of the project and Repository. It's also good because GitHub will always use the template corresponding to the Branch that the Contributor wants to modify.
