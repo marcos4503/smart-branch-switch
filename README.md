@@ -61,9 +61,9 @@ After mapping all the files in the Root and Subfolders of your Local Repository 
 
 After finishing handling the mapped files, SBS will look at the **error list** and, if there are any files there, it will begin the **Error Resolution**. The **Error Resolution** consists of:
 
-- SBS will notify you via a Dialog Box that there are still a number of files that have not been Moved/Copied to the `Old Branch` Limbo and it will recommend that you close Processes that may be using those files. You will have these options:
-  - Solve Errors: In this case, SBS will attempt to Copy/Move all these files again. If any of them fail again, it will display the same Dialog Box again, but with an updated count of remaining error files.
-  - Skip Errors: In this case, SBS will ignore all files that could not be Moved/Copied and will proceed. These files will remain in your `Current Branch` after the SBS execution is complete.
+- **Notify:** SBS will notify you via a Dialog Box that there are still a number of files that have not been Moved/Copied to the `Old Branch` Limbo and it will recommend that you close Processes that may be using those files. You will have these options:
+  - **Solve Errors:** In this case, SBS will attempt to Copy/Move all these files again. If any of them fail again, it will display the same Dialog Box again, but with an updated count of remaining error files.
+  - **Skip Errors:** In this case, SBS will ignore all files that could not be Moved/Copied and will proceed. These files will remain in your `Current Branch` after the SBS execution is complete.
 
 > [!NOTE]
 > Note that all files within the Branch Limbo retain their original relative paths, maintaining the folder and file structure 100% identical to how it was in the `Old Branch`.
