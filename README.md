@@ -72,14 +72,14 @@ After saving all the files ignored by the `Old Branch` to the `Old Branch` Limbo
 
 As a final step, after saving files to Limbo and cleaning the Repository, SBS will then look at the Limbo of the `Current Branch` and retrieve all files from the Limbo of the `Current Branch` directly to the Local Repository. For each file existing in the `Current Branch` Limbo, SBS will execute the following flow:
 
-- If the Limbo file ALREADY exists in the Local Repository, in the active `Current Branch`:
-  - This is a conflict because the file that is in Limbo and about to be restored to the `Current Branch` already exists in the active `Current Branch`. In this case, SBS will attempt to resolve this conflict by presenting you with a Dialog Box asking you what to do. You will have these options:
-    - Overwrite: Deletes the conflicting file in the `Current Branch` and retrieve the version that is in Limbo.
-    - Ignore: The conflicting file in the `Current Branch` remains untouched, and the Limbo version is still there.
-    - Overwrite All: It does the same as **Overwrite**, but applies it to this and all subsequent occurrences.
-    - Ignore All: It does the same as **Ignore**, but applies it to this and all subsequent occurrences.
-- If the Limbo file does NOT exist in the Local Repository, in the active `Current Branch`:
-  - The Limbo file is Moved to the `Current Branch`.
+- **If the Limbo file ALREADY exists in the Local Repository, in the active `Current Branch`:**
+  - **Notify:** This is a conflict because the file that is in Limbo and about to be restored to the `Current Branch` already exists in the active `Current Branch`. In this case, SBS will attempt to resolve this conflict by presenting you with a Dialog Box asking you what to do. You will have these options:
+    - **Overwrite:** Deletes the conflicting file in the `Current Branch` and retrieve the version that is in Limbo.
+    - **Ignore:** The conflicting file in the `Current Branch` remains untouched, and the Limbo version is still there.
+    - **Overwrite All:** It does the same as **Overwrite**, but applies it to this and all subsequent occurrences.
+    - **Ignore All:** It does the same as **Ignore**, but applies it to this and all subsequent occurrences.
+- **If the Limbo file does NOT exist in the Local Repository, in the active `Current Branch`:**
+  - **Move** the Limbo file to the `Current Branch`.
 
 After that, any remaining files in the `Current Branch` Limbo are deleted, and this Limbo is emptied, being ready to save the files ignored by the `Current Branch` when you switch to another Branch!
 
