@@ -96,7 +96,7 @@ If all `.gitignore` files in the Root of all Branches are not identical, SBS wil
 
 Also, although Smart Branch Switch can handle different `.gitignore` files in each Branch (as seen in the last sub-topic), still efficiently cleaning up ignored files, having identical `.gitignore` files in the Root of all Branches ensures the most predictable operation of SBS, keeping your Local Repository organized according to the Branch you are on.
 
-**Furthermore**, identical `.gitignore` files in the Roots of all Branches, guarantees that other people who clone your Repository on their PCs, and prefer not to use Smart Branch Switch, will not suffer from a mess of ignored files when switching Branches. In addition, it improves the functionality and predictability of Git itself, avoiding unexpected behaviors.
+**Furthermore**, identical `.gitignore` files in the Roots of all Branches, guarantees that other people who clone your Repository on their PCs, and prefer not to use Smart Branch Switch, will not suffer from a mess of ignored files when switching Branches. Also, it improves the functionality and predictability of Git itself, avoiding unexpected behaviors.
 
 ### ⚠️ Detection of Existence of Untracked Files After SBS Run
 
