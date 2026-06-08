@@ -94,7 +94,7 @@ If all `.gitignore` files in the Root of all Branches are not identical, SBS wil
 
 **Why is this important?** These files are essential for Git to know what it should or shouldn't Tracked/Commited, preventing your Repository from being bloated with unnecessary files. Furthermore, these files are the cornerstone used by Smart Branch Switch to determine what should be saved to Limbo, or not, after an Branch switch.
 
-Also, although Smart Branch Switch can handle different `.gitignore` files in each Branch (as seen in the last sub-topic), still efficiently cleaning up ignored files, having identical `.gitignore` files in the Root of all Branches ensures the most predictable operation of SBS, keeping your Local Repository organized according to the Branch you are currently on.
+Also, although Smart Branch Switch can handle different `.gitignore` files in each Branch (as seen in the last sub-topic), still efficiently cleaning up ignored files, having identical `.gitignore` files in the Root of all Branches ensures the most predictable operation of SBS, keeping your Local Repository organized according to the Branch you are on.
 
 **Furthermore**, ensuring identical `.gitignore` files in the Roots of all Branches, guarantees that other people who clone your Repository on their PCs, and prefer not to use Smart Branch Switch, will not suffer from a mess of ignored files when switching Branches. In addition, it improves the functionality and predictability of Git itself, avoiding unexpected behaviors.
 
