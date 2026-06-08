@@ -146,3 +146,7 @@ After completing the Branch switch, SBS will check if the current Branch contain
 If it doesn't, it will notify you with a Dialog Box. This Dialog Box offers you the option to disable it, so it no longer appears in the Repository. Additionally, this feature does not work for Branches named as `gh-pages`.
 
 **Why is this useful?** It's useful to ensure that all Branches contain a Pull Request Template. This definitely helps with the organization and standardization of the project and Repository. It's also good because GitHub will always use the template corresponding to the Branch that the Contributor wants to modify.
+
+# 📥 Using Smart Branch Switch on your Local Repository
+
+a
