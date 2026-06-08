@@ -42,9 +42,11 @@ Now take a closer look at all the functions of the Smart Branch Switch.
 
 ### 🧹 Management of Ignored Files
 
-The SBS introduces a concept of "Branch Limbo". This means that SBS creates and manages a Limbo for each Branch that your Local Repository has. The SBS engine will automatically delete Limbos belonging to Branches that no Longer exist, and will create Limbos for Branches that do not yet have a Limbo. The Limbo stores ignored files from each Branch in an isolated and secure way, keeping your Local Repository always organized and containing only the files that REALLY belong to the currently active Branch. No more junk files and files ignored by other Branches, polluting and disorganizing your Local Repository and your current Branch!
+The SBS introduces a concept of "Branch Limbo". This means that SBS creates and manages a Limbo for each Branch that your Local Repository has. The SBS engine will automatically delete Limbos belonging to Branches that no Longer exist, and will create Limbos for Branches that do not yet have a Limbo.
 
-The Limbo are located inside the `sbs` folder, which is inside the `.git` folder of your Local Repository. **It's not recommended, and you don't even need to worry about inspecting the `sbs` folder**, as everything inside is automatically managed by the Smart Branch Switch. It keeps the `sbs` folder always free of junk and organized.
+The Limbos stores ignored files from each Branch in an isolated and secure way, keeping your Local Repository always organized and containing only the files that REALLY belong to the currently active Branch. No more junk files and files ignored by other Branches, polluting and disorganizing your Local Repository and your current Branch!
+
+The Limbos are located inside the `sbs` folder, which is inside the `.git` folder of your Local Repository. **It's not recommended, and you don't even need to worry about inspecting the `sbs` folder**, as everything inside is automatically managed by the Smart Branch Switch. It keeps the `sbs` folder always free of junk and organized.
 
 Now that you understand this concept, let's look at how the feature of `🧹 Management of Ignored Files` works. When this feature starts running, SBS will collect some context information from Git. This will allow it to know which Branch you left (a.k.a. `Old Branch`), which Branch you are now on (a.k.a. `Current Branch`), and other minor details.
 
