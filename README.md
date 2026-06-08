@@ -55,7 +55,7 @@ After SBS collects this information, it will look at the `Old Branch` and retrie
 After mapping all the files in the Root and Subfolders of your Local Repository that need to be managed, it will separate these files into two lists, being `files that are ignored by the Old Branch but are NOT tracked by the Current Branch` and `files that are ignored by the Old Branch but ARE tracked by the Current Branch`. After performing this separation, it will begin processing each mapped file, following this flow:
 
 - Try to **Copy** or **Move** the file to the `Old Branch` Limbo:
-  - If the file is tracked by the `Current branch`, it will be **COPIED**.
+  - If the file IS tracked by the `Current branch`, it will be **COPIED**.
   - If the file is NOT tracked by `Current Branch`, it will me **MOVED**.
 - If the Copy/Move fails, it most likely means that the file is being used by some Process. If this is the case, SBS places that file in an **error list** and continues to the next file.
 
