@@ -56,7 +56,7 @@ After mapping all the files in the Root and Subfolders of your Local Repository 
 
 - Try to **Copy** or **Move** the file to the `Old Branch` Limbo:
   - If the file **IS** tracked by the `Current Branch`, it will be **COPIED**.
-  - If the file is **NOT** tracked by `Current Branch`, it will me **MOVED**.
+  - If the file is **NOT** tracked by `Current Branch`, it will be **MOVED**.
 - If the Copy/Move fails, it most likely means that the file is being used by some Process. If this is the case, SBS places that file in an **error list** and continues to the next file.
 
 After finishing handling the mapped files, SBS will look at the **error list** and, if there are any files there, it will begin the **Error Resolution**. The **Error Resolution** consists of:
